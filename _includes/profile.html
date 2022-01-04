@@ -1,0 +1,8 @@
+<div class="profile">
+    <div class="profile-picture">
+        {% for item in site.data.fellows %}
+            <img src="./assets/img/{{ item.img }}">
+        {% endfor %}
+    </div>
+    <h1>{{ site.title }}</h1>
+</div>
