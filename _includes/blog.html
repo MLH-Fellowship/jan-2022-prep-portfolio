@@ -1,0 +1,19 @@
+<h2>Blog</h2>
+<div class="card-container">
+    {% for item in site.data.blogs %}
+    {% if item.page-name %}
+    <a href="/blog/{{ item.page-name }}">
+    {% else %}
+    <a>
+    {% endif %}
+      <div class="card">
+        <div class="info">
+          <p class="title">{{ item.title }}</p>
+          <p class="location">{{ item.author }}</p>
+          <p class="dates">{{ item.date }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  

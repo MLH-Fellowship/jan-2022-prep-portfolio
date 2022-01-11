@@ -1,0 +1,19 @@
+- title: Example Blog 1
+  author: John Doe
+  date: January 11, 2022
+  content: >
+    Cillum proident pariatur cillum laboris sint. Proident veniam id mollit 
+    labore incididunt minim Lorem laborum duis sit sit. Et aliqua non aliqua 
+    id. Et sunt velit consectetur quis qui nisi velit. Exercitation ullamco 
+    irure adipisicing est esse amet ullamco. Mollit cillum quis dolore enim.
+  page-name: short-title
+
+- title: Example Blog 2
+  author: Doe John
+  date: January 12, 2022
+  content: >
+    Cillum proident pariatur cillum laboris sint. Proident veniam id mollit 
+    labore incididunt minim Lorem laborum duis sit sit. Et aliqua non aliqua 
+    id. Et sunt velit consectetur quis qui nisi velit. Exercitation ullamco 
+    irure adipisicing est esse amet ullamco. Mollit cillum quis dolore enim.
+  page-name: s-title
