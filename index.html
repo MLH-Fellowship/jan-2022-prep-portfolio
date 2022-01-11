@@ -2,18 +2,23 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
 
-<body>
-    {% include navbar.html %}
+<div class="main-content">
+    {% include header.html %}
 
-    {% include profile.html %}
-    
-    {% include description.html %}
-    
-    {% include projects.html %}
+    <div>
+        {% include navbar.html %}
 
-    {% include footer.html %}
-</body>
+        {% include profile.html %}
+
+        {% include description.html %}
+
+        {% include projects.html %}
+
+    </div>
+
+</div>
+
+{% include footer.html %}
 
 </html>
