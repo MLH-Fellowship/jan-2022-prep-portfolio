@@ -1,0 +1,38 @@
+[theme="dark"] {
+  background-color: #121212 !important;
+
+  .initiallogo {
+    background-color: #434343 !important;
+  }
+  .finallogo {
+    background-color: #fff !important;
+  }
+}
+
+[theme="dark"] {
+  header,
+  .profile,
+  .banner {
+    background-color: #1a1919 !important;
+  }
+
+  h1,
+  h2,
+  .control-label,
+  .title {
+    color: #fff !important;
+  }
+
+  .card {
+    background-color: #434343 !important;
+  }
+
+  .location {
+    color: #fff !important;
+  }
+
+  .dates,
+  p {
+    color: #fff !important;
+  }
+}
