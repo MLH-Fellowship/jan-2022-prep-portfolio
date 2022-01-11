@@ -5,6 +5,16 @@
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
+            <p class="twitter">
+                <a href="{{item.twitter}}">Twitter</a>    
+            </p>
+            <p class="linkedin">
+                <a href="{{item.linkedin}}"> Linkedin </a>
+            </p>
+            <p class="github">
+                <a href="{{item.github}}"> Github </a></p>
+            <p class="resume">
+                <a href="{{item.resume}}"> Resume </a></p>
         </div>
     </div>
     {% endfor %}
