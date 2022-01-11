@@ -1,6 +1,7 @@
 const darkModeButton = document.getElementById("dark-theme-toggle");
 const darkModeStatusIcon = document.getElementById("dark-mode-status-icon");
 const darkModeStatusIndicator = document.getElementById("dark-mode-status-indicator");
+const darkModeStatusIconWrapper = document.getElementById("dark-mode-status-icon-wrapper");
 // Mapping:
 // 0 - auto
 // 1 - dark
@@ -16,6 +17,7 @@ const iconMapping = {
   "dark": "bxs-moon",
   "light": "bxs-sun",
 }
+var currentTimeout = null
 
 window.addEventListener("load", function () {
   initTheme();
@@ -28,6 +30,13 @@ function initTheme() {
     currentMode = (currentMode + 1) % 3
     updateTheme(modeMapping[currentMode])
   })
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    const deviceMode = event.matches ? "dark" : "light";
+    if (currentMode === 0) {
+      // Re-trigger the auto update
+      updateTheme("auto")
+    }
+  });
 }
 
 function capitalise(text) {
@@ -60,6 +69,19 @@ function updateTheme(modePreference, isInit = false) {
       isDark = false
   }
 
+  beforeModeChange({ isDark, modePreference, isInit }).then(() => {
+    isDark ? applyDarkMode() : applyLightMode()
+    // Remove the hidden tag - the hidden tag was added 
+    // to avoid flashing when switching pages in dark mode.
+    if (isInit) {
+      document.body.classList.remove("hidden")
+    }
+  }).then(() => {
+    afterModeChange({ isDark, modePreference, isInit })
+  })
+}
+
+async function beforeModeChange({ isDark, modePreference, isInit }) {
   // Change the button text
   darkModeStatusIndicator.innerText = capitalise(modePreference)
 
@@ -70,26 +92,35 @@ function updateTheme(modePreference, isInit = false) {
   })
   darkModeStatusIcon.classList.add(iconMapping[modePreference])
 
-
-  beforeModeChange({ isDark, modePreference }).then(() => {
-    isDark ? applyDarkMode() : applyLightMode()
-    // Remove the hidden tag - the hidden tag was added 
-    // to avoid flashing when switching pages in dark mode.
-    if (isInit) {
-      document.body.classList.remove("hidden")
+  if (!isInit) {
+    const allElements = document.getElementsByTagName("*");
+    for (let i = 0, max = allElements.length; i < max; i++) {
+      const element = allElements[i];
+      if (element !== darkModeStatusIcon && element !== darkModeStatusIconWrapper && element !== darkModeStatusIndicator) {
+        element.classList.add("transition-effect")
+      }
     }
-  }).then(() => {
-    afterModeChange({ isDark, modePreference })
-  })
-}
+  }
 
-async function beforeModeChange({ isDark, modePreference }) {
-  // [TODO] Set up the animation
   return
 }
 
-async function afterModeChange({ isDark, modePreference }) {
+async function afterModeChange({ isDark, modePreference, isInit }) {
   // [TODO] Clean up the animation
+  if (!isInit) {
+    const allElements = document.getElementsByTagName("*");
+    if (currentTimeout) {
+      clearTimeout(currentTimeout)
+    }
+    currentTimeout = setTimeout(() => {
+      for (let i = 0, max = allElements.length; i < max; i++) {
+        const element = allElements[i];
+        if (element !== darkModeStatusIcon && element !== darkModeStatusIconWrapper && element !== darkModeStatusIndicator) {
+          element.classList.remove("transition-effect")
+        }
+      }
+    }, 1000);
+  }
   return
 }
 
