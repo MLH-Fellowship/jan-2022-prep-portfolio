@@ -11,6 +11,11 @@ const modeMapping = {
   1: "dark",
   2: "light"
 }
+const iconMapping = {
+  "auto": "bxs-brightness-half",
+  "dark": "bxs-moon",
+  "light": "bxs-sun",
+}
 
 window.addEventListener("load", function () {
   initTheme();
@@ -23,6 +28,12 @@ function initTheme() {
     currentMode = (currentMode + 1) % 3
     updateTheme(modeMapping[currentMode])
   })
+}
+
+function capitalise(text) {
+  if (text) {
+    return text[0].toUpperCase() + text.slice(1)
+  }
 }
 
 function updateTheme(modePreference, isInit = false) {
@@ -50,7 +61,15 @@ function updateTheme(modePreference, isInit = false) {
   }
 
   // Change the button text
-  darkModeStatusIndicator.innerText = modePreference
+  darkModeStatusIndicator.innerText = capitalise(modePreference)
+
+  // Sort out the right class for darkModeStatusIcon
+  const classes = ['bxs-moon', "bxs-sun", "bxs-brightness-half"]
+  classes.forEach(className => {
+    darkModeStatusIcon.classList.remove(className)
+  })
+  darkModeStatusIcon.classList.add(iconMapping[modePreference])
+
 
   beforeModeChange({ isDark, modePreference }).then(() => {
     isDark ? applyDarkMode() : applyLightMode()
