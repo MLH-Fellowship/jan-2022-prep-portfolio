@@ -1,17 +1,19 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
-    {% include navbar.html %}
+  <body>
+    {% include navbar.html %} {% include profile.html %} {% include
+    description.html %} {% include projects.html %} {% include toggle.html %}
 
-    {% include profile.html %}
-    
-    {% include description.html %}
-    
-    {% include projects.html %}
-</body>
-
+    <script>
+      const theme = localStorage.getItem("mode");
+      if (theme !== null) {
+        document.body.setAttribute("theme", "dark");
+      }
+    </script>
+  </body>
 </html>
