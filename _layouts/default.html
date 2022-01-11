@@ -3,16 +3,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {{ content }} {% include toggle.html %}
+<body class="hidden">
 
-    <script>
-      const theme = localStorage.getItem("mode");
-      if (theme !== null) {
-        document.body.setAttribute("theme", "dark");
-      }
-    </script>
-  </body>
+  {{ content }}
+
+</body>
+
 </html>

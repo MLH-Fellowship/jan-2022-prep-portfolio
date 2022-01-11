@@ -3,17 +3,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {% include navbar.html %} {% include profile.html %} {% include
-    description.html %} {% include projects.html %} {% include toggle.html %}
+<body class="hidden">
+  {% include navbar.html %} {% include profile.html %} {% include
+  description.html %} {% include projects.html %} {% include toggle.html %}
 
-    <script>
-      const theme = localStorage.getItem("mode");
-      if (theme !== null) {
-        document.body.setAttribute("theme", "dark");
-      }
-    </script>
-  </body>
+</body>
+
 </html>
