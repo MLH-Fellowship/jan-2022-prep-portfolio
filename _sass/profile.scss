@@ -30,6 +30,9 @@
 		@media (max-width: 574px) {
 			grid-template-columns: repeat(2, 1fr);
 		}
+		@media (max-width: 344px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
 		margin-bottom: 30px;
 		height: fit-content;
 	}
