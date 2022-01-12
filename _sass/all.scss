@@ -76,6 +76,63 @@ a {
         font-size: small;
         color: #404040;
     }
+    
+    .social-link{
+      display: flex;
+
+      i.fab,i.fas{
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          opacity: 0.5;
+          transform: scale(1.1)
+      }
+      }
+      
+      .linkedin{
+        margin-left: 10px;
+      }
+      .github{
+        margin-left: 10px;
+      }
+      .resume{
+        margin-left: 10px;
+      }
+      .twitter{
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+          padding: 4px;
+        }
+      }
+      .linkedin{
+        .fa-linkedin {
+          //background: #007bb5;
+          background: #0a66c2;
+          color: white;
+          padding: 4px;
+        }
+      }
+      .github{
+        .fa-github {
+          background: #000000;
+          color: white;
+          padding: 4px;
+        }
+      }
+      .resume{
+        .fa-file {
+          background: #000000;
+          color: white;
+          padding: 4px;
+        }
+      }
+
+    }
 }
 
 .icon {

@@ -5,16 +5,21 @@
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
-            <p class="twitter">
-                <a href="{{item.twitter}}">Twitter</a>    
-            </p>
-            <p class="linkedin">
-                <a href="{{item.linkedin}}"> Linkedin </a>
-            </p>
-            <p class="github">
-                <a href="{{item.github}}"> Github </a></p>
-            <p class="resume">
-                <a href="{{item.resume}}"> Resume </a></p>
+            <div class="social-link">
+                <div class="twitter">
+                    <a href="{{item.twitter}}"><i class="fab fa-twitter"></i></a>    
+                </div>
+                <div class="linkedin">
+                    <a href="{{item.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="github">
+                    <a href="{{item.github}}"> <i class="fab fa-github"></i> </a>
+                </div>
+                <div class="resume">
+                    <a href="{{item.resume}}"><i class="fas fa-file"></i></a>
+                </div>
+            </div>
+            
         </div>
     </div>
     {% endfor %}
