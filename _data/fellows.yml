@@ -1,6 +1,6 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Emeka
+  img: emeka.jpg
+  location: Massachusetts, USA
 
 - name: Amanda
   img: amanda.jpg
