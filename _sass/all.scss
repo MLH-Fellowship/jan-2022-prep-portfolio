@@ -4,6 +4,7 @@
 @import "profile";
 @import "page";
 @import "darkmode";
+@import 'footer';
 
 .card-container {
     display: grid;
@@ -60,6 +61,10 @@ h2 {
 
 a {
     color: black;
+}
+
+.main-content {
+  min-height: 100vh;
 }
 
 .info {
