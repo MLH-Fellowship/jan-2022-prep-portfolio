@@ -37,7 +37,10 @@ for(var i=0;i<fellows.length;i++){
     var popup = `<div class="container">
                 <h4><b>${fellows[i].name}</b></h4>
                 <b>${fellows[i].location}</b>
-
+                <div >
+                <a href=${fellows[i].linkedin}><em class="fab fa-linkedin"></em></a>
+                <a href=${fellows[i].github}><em class="fab fa-github"></em></a>
+                </div>
                 </div>`
     var marker = L.marker([fellows[i].x, fellows[i].y],{icon:icon}).addTo(map);
     marker.bindPopup(popup);
