@@ -5,6 +5,7 @@
 }
 
 #dark-theme-toggle {
+  z-index: 10000000;
   position: fixed;
   bottom: 3rem;
   right: 3rem;
@@ -22,12 +23,14 @@
   .initiallogo {
     background-color: #2a2b3c !important;
   }
+
   .finallogo {
     background-color: #1e1e29 !important;
   }
-}
 
-[theme="dark"] {
+  .footer-all {
+    background-color: #2a2b3c;
+  }
   header,
   .profile,
   .banner {
