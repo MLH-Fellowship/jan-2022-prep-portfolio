@@ -79,8 +79,9 @@ a {
     
     .social-link{
       display: flex;
+      margin-top: 10px;
 
-      i.fab,i.fas{
+      i.fab,i.fas, i.far{
         padding: 0px;
         text-align: center;
         text-decoration: none;
@@ -104,7 +105,7 @@ a {
       }
       .twitter{
         .fa-twitter {
-          background: #55ACEE;
+          background: #32CCFE;
           color: white;
           padding: 4px;
         }
@@ -119,16 +120,15 @@ a {
       }
       .github{
         .fa-github {
-          background: #000000;
+          background: rgb(44, 44, 44);
           color: white;
           padding: 4px;
         }
       }
       .resume{
-        .fa-file {
-          background: #000000;
-          color: white;
+        .fa-file-alt {
           padding: 4px;
+          transform: scale(1.2);
         }
       }
 
