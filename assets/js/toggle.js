@@ -19,7 +19,7 @@ const iconMapping = {
 }
 var currentTimeout = null
 
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
   initTheme();
 });
 
