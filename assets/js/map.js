@@ -18,8 +18,8 @@ var fellows = [
     //     role: 'Fellow',
     // },
     {
-    	lat:41.5,
-    	long:19,
+    	lat:-14.2350,
+    	long:-51.9253,
     	pic:'swift.jpg',
         name: 'Gabriell',
         location: 'Brazil',
@@ -29,7 +29,7 @@ var fellows = [
     },
     {
     	lat:42.4215,
-    	long:75.6972,
+    	long:-75.6972,
     	pic:'Kish.jpeg',
         name: 'Kish',
         location: 'Ottawa, Canada',
@@ -78,8 +78,8 @@ var fellows = [
         role: 'Fellow',
     },
     {
-    	lat:28.7041,
-    	long:19,
+    	lat:-33.8688,
+    	long:151.2093,
     	pic:'yan.jpg',
         name: 'Yijun Yan',
         location: 'Sydney, Australia',
@@ -169,7 +169,7 @@ var fellows = [
     },
     {
     	lat:42.2181,
-    	long:70.9410,
+    	long: -70.9410,
     	pic:'emeka.jpg',
         name: 'Emeka',
         location: 'Weymouth, United States',
