@@ -80,9 +80,30 @@
   .adaptive-shadow {
     filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.3));
   }
+
   .adaptive-theme-color {
     background-color: #b9d1f2;
   }
+
+  .adaptive-theme-color-dark {
+    background-color: #17427E;
+  }
+
+  .light-only {
+    display: none;
+  }
+
+  .dark-only {
+    display: block;
+  }
+}
+
+.light-only {
+  display: block;
+}
+
+.dark-only {
+  display: none;
 }
 
 .adaptive-text {
@@ -102,6 +123,10 @@
 }
 
 .adaptive-theme-color {
+  background-color: #2c74d8;
+}
+
+.adaptive-theme-color-dark {
   background-color: #2c74d8;
 }
 
