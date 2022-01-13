@@ -16,3 +16,25 @@
 .cursor-wait {
     cursor: wait;
 }
+
+#animation-content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-image-wrapper {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.logo-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

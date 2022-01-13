@@ -62,8 +62,8 @@ function pageTransition(href) {
 
 function install() {
     if (localStorage.getItem("transition-enabled") === "true") {
-        localStorage.setItem("transition-enabled", null);
-        localStorage.setItem("transition-from", null);
+        localStorage.setItem("transition-enabled", "");
+        localStorage.setItem("transition-from", "");
         animationLock = true
         afterPageTransition(localStorage.getItem("transition-from")).then(() => {
             animationLock = false
