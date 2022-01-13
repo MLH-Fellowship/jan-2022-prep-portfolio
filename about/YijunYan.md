@@ -1,7 +1,7 @@
 ---
 layout: profile
 title : test
-Name: Yijun Yan (aka Lincoln)
+Name: Yijun Yan 
 University: High School Graduate - Will update by the end of the program
 City: Sydney
 Country: Australia
