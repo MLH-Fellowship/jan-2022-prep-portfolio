@@ -229,7 +229,8 @@ for(var i=0;i<fellows.length;i++){
     var icon = L.icon({
         iconUrl: '/assets/img/'+fellows[i].pic,
         iconSize:     [40, 40], // size of the icon
-        popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
+        popupAnchor:  [0, -16], // point from which the popup should open relative to the iconAnchor
+        className: 'icon'
     });
     var popup = `<div class="container">
                 <h4 style='display:inline'><b>${fellows[i].name}</b><h6 style='display:inline'>, ${fellows[i].role}</h6></h4>
@@ -270,7 +271,8 @@ Medobj=median(fellows);
 var icon = L.icon({
         iconUrl: '/assets/img/tea.jpeg',
         iconSize:     [40, 40], // size of the icon
-        popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
+        popupAnchor:  [0, -16], // point from which the popup should open relative to the iconAnchor
+        className: 'icon'
 });
 var popup = `<div class="container">
             <h6 style='display:inline'><b>They call me median ;)</b><h7 style='display:inline'>, A perfect place to hangout!</h7></h6>
