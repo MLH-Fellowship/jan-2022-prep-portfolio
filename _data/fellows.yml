@@ -1,15 +1,59 @@
-- name: Aniket
+- name: Advitiay Anand
   img: logo.jpg
+  location: Amritsar, India
+
+- name: Aniket Pal
+  img: amanda.jpg
   location: Durgapur, India
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
+- name: Anubhav Gupta
   img: aaron.jpg
-  location: London, UK
+  location: New Delhi, India
 
-- name: Swift
+- name: Dhruv Sachdev
   img: swift.jpg
-  location: New York City, USA
+  location: Mumbai, India
+
+- name: Emeka
+  img: logo.jpg
+  location: Weymouth, USA
+
+- name: Harsh Sharma
+  img: amanda.jpg
+  location: Gurgaon, India
+
+- name: Khudadad Nomani
+  img: aaron.jpg
+  location: Peshawar, Pakistan
+
+- name: Kish
+  img: swift.jpg
+  location: Ottawa, Canada
+
+- name: Kshitij Darekar
+  img: logo.jpg
+  location: Navi Mumbai, India
+
+- name: P.Sahithi Reddy
+  img: amanda.jpg
+  location: Mahabubnagar, India
+
+- name: Pritish Samal
+  img: aaron.jpg
+  location: Berhampur, India
+
+- name: Riya Dev Varshney
+  img: swift.jpg
+  location: Delhi, India
+
+- name: Tushar Malik
+  img: logo.jpg
+  location: New Delhi, India
+
+- name: Vaibhave S
+  img: amanda.jpg
+  location: Chennai, India
+
+- name: Yijun Yan
+  img: aaron.jpg
+  location: Sydney, Australia
