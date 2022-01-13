@@ -1,4 +1,4 @@
-var map = L.map('map').setView([40.7351, -74.1718], 2);
+var map = L.map('map').setView([17.6078,8.0817], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -179,6 +179,17 @@ var fellows = [
     },
 ];
 
+function median(Fellows){
+    var lat=0.0,long=0.0
+    for(var i=0;i<Fellows.length;i++){
+        lat+=Fellows[i].lat;
+        long+=Fellows[i].long;
+    }
+    lat/=Fellows.length;
+    long/=Fellows.length;
+    return [lat,long];
+}
+
 function distance(Fellow1,Fellow2) {
     lat1=Fellow1.lat,lat2=Fellow2.lat, lon1=Fellow1.long, lon2=Fellow2.long
     // The math module contains a function
@@ -206,7 +217,6 @@ for(var i=0;i<fellows.length;i++){
     var nearestIndex=-1,nearestDistance=Number.MAX_SAFE_INTEGER;
     for(var j=0;j<fellows.length;j++){
         if(i==j) continue;
-        console.log(distance(fellows[i],fellows[j]));
         if(distance(fellows[i],fellows[j])<nearestDistance){
             nearestDistance=distance(fellows[i],fellows[j]);
             nearestIndex=j;
@@ -254,3 +264,17 @@ if (navigator.geolocation) {
         {timeout: 30000, enableHighAccuracy: true, maximumAge: 75000}
     );
 }  
+
+Medobj=median(fellows);
+
+var icon = L.icon({
+        iconUrl: '/assets/img/tea.jpeg',
+        iconSize:     [40, 40], // size of the icon
+        popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
+});
+var popup = `<div class="container">
+            <h6 style='display:inline'><b>They call me median ;)</b><h7 style='display:inline'>, A perfect place to hangout!</h7></h6>
+            <hr/><b>Oman</b>
+            </div>`
+var marker = L.marker([Medobj[0], Medobj[1]],{icon:icon}).addTo(map);
+marker.bindPopup(popup);
