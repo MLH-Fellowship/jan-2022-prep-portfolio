@@ -11,6 +11,6 @@
    GitHub: https://github.com/anubhav06
    LinkedIn: https://www.linkedin.com/in/anubhav-gupta06/
    Twitter: https://twitter.com/anubhavstwt
-   Image: https://drive.google.com/open?id=1JXcqeCrB7EhXPfl4SMEeBXyT8orOjDcY
+   Image: anubhav.jpg
    Resume: https://drive.google.com/open?id=1rG7vzWnByQP2NN5Cp5soICh0EZaOl9ri
 ---

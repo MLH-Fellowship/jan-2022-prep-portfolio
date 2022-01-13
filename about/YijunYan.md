@@ -11,6 +11,6 @@ Interests-Outside-Of-Tech: Music
 GitHub: yyjlincoln
 LinkedIn: yyjlincoln
 Twitter: N/A
-Image: https://drive.google.com/open?id=13fRuhcS_dWXRjhWwMQFhOvKYPCFJeE7F
+Image: yan.jpg
 Resume: https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb
 ---

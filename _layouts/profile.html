@@ -6,25 +6,113 @@ layout: default
     <div class="container">
         <div class="logo">
             <a href="/">
-                <img src="/assets/img/logo.svg"/>
+                <img src="/assets/img/logo.svg" />
             </a>
-        </div>
-        <div class="title">
-            {{ page.Name }}
         </div>
     </div>
 </div>
 
 <div class="container page">
-    <div>
-        Add all the desigining here then refrence each data like this:
-        
 
-        To get the Name: {{page.Name}} <br> 
-        To get the City: {{page.City}} <br>
-        To get the favourite programming language: {{page.Favourite-Programming-Languages}} <br>
-
-    </div>
     {% include toggle.html %}
     <!-- Global Wrapper, excluding index.html -->
 </div>
+
+
+<div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+    <div class="card fellow-card p-4">
+      <div
+        class="
+          fellow-image
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+        "
+      >
+        <button class="btn btn-secondary">
+          <img
+            src='../assets/img/{{page.Image}}' 
+            height="100"
+            width="100"
+          />
+        </button>
+        <span class="fellow-name mt-3">{{ page.Name }}</span>
+        <span class="idd">{{ page.City }} , {{ page.Country }}</span>
+        <div
+          class="
+            d-flex
+            flex-row
+            justify-content-center
+            align-items-center
+            mt-3
+            text-center
+          "
+        > {{ page.University }}</div>
+        <br>
+        <span class="fellow-name mt-1">Bio</span>
+        <span class="fellow-bio"
+        >
+        <em>  {{ page.Bio }} </em>
+       
+      </span>
+       <br>
+      <span class="fellow-details mt-1"> Favourite Programming languages</span>
+
+      <div
+      class="
+        d-flex
+        flex-row
+        justify-content-center
+        align-items-center
+       gap-2
+       text-center
+      "
+    >
+    {{ page.Favourite-Programming-Languages }}
+      </div>
+
+      <br>
+      <span class="fellow-details mt-1">Interests out of Tech</span>
+
+      <div
+      class="
+        d-flex
+        flex-row
+        justify-content-center
+        align-items-center
+       gap-2
+         text-center
+      "
+    >
+   {{ page.Interests-Outside-Of-Tech }}
+      </div>
+
+          <!-- <span class="number">1069 <span class="follow">Commits</span></span> -->
+       <br>
+        <div class="d-flex mt-2">
+          <button class="btn1 btn-dark" onclick="window.location.href = '{{ page.Resume }}';">Resume </button>
+        </div>
+        <div class="text mt-3">
+      
+        </div>
+        <div
+          class="
+            gap-3
+            mt-3
+            icons
+            d-flex
+            flex-row
+            justify-content-center
+            align-items-center
+            text-center
+          "
+        >
+          <span onclick="window.location.href = '{{ page.Twitter }}';"><i class="fa fa-twitter"></i></span>
+          <span onclick="window.location.href = '{{ page.GitHub }}';"><i class="fa fa-github"></i></span>
+          <span onclick="window.location.href = '{{ page.LinkedIn }}';"><i class="fa fa-linkedin"></i></span>
+        </div>
+    
+      </div>
+    </div>
+  </div>

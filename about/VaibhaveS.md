@@ -11,6 +11,6 @@ Interests-Outside-Of-Tech: Painting
 GitHub: https://github.com/VaibhaveS
 LinkedIn: https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/
 Twitter: N/A
-Image: https://drive.google.com/open?id=1QE-U6djFq5msP9KyO558yv3bpqnUh4dc
+Image: vaibhave.jpg
 Resume: https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB
 ---
