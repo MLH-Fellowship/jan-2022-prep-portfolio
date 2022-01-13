@@ -1,14 +1,13 @@
 // Page Transition
 
 const animationLayer = document.getElementById("animation-layer");
-var latestHref = null;
-var animationLock = false;
-var timeline = gsap.timeline()
+let latestHref = null;
+let animationLock = false;
+let timeline = gsap.timeline()
 
 async function beforePageTransition() {
     animationLayer.classList.remove("animation-hidden");
     document.body.classList.add("cursor-wait");
-    timeline = gsap.timeline()
     await timeline.from("#animation-layer",
         {
             left: "100%",
@@ -23,12 +22,10 @@ async function beforePageTransition() {
 async function afterPageTransition() {
     animationLayer.classList.remove("animation-hidden");
     document.body.classList.add("cursor-wait");
-    timeline = gsap.timeline()
     await timeline.fromTo("#animation-layer",
         {
             opacity: 1,
             left: "0%",
-            ease: "expo.out",
             width: "100%",
         },
         {
@@ -39,6 +36,7 @@ async function afterPageTransition() {
             clearProps: "all"
         }
     )
+
     document.body.classList.remove("cursor-wait");
     animationLayer.classList.add("animation-hidden");
 }
@@ -70,13 +68,13 @@ function install() {
         })
     }
     // Add a handler to all links
-    var a = document.querySelectorAll('a');
-    for (var i = 0; i < a.length; i++) {
+    let a = document.querySelectorAll('a');
+    for (let i = 0; i < a.length; i++) {
         a[i].addEventListener('click', function (event) {
             event.preventDefault();
-            var href = this.getAttribute('href');
-            // Get the target attribute from the a element
-            var target = this.getAttribute('target');
+            let href = this.getAttribute('href');
+            // Get the target attribute from the <a> element
+            let target = this.getAttribute('target');
             // If target is _blank
             if (target === '_blank') {
                 // Open the link in a new window
@@ -86,7 +84,7 @@ function install() {
             }
         });
     }
-    window.addEventListener("popstate", (e) => {
+    window.addEventListener("popstate", () => {
         pageTransition(document.location.href)
     })
 }
