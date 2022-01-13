@@ -24,7 +24,7 @@
 
 - name: Dhruv Sachdev
   img: dhruv.jpg
-  location: Mumbai , India
+  location: Mumbai, India
   twitter : https://twitter.com/dhruvhsachdev
   linkedin : https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/
   github : https://github.com/Dhruv-Sachdev1313
@@ -32,7 +32,7 @@
 
 - name: Emeka
   img: emeka.JPG
-  location: Massachusetts, USA
+  location: Weymouth, USA
   twitter :
   linkedin : https://www.linkedin.com/in/emeka-mba/
   github : https://gitHub.com/Chukwuemeka-Mba
@@ -64,7 +64,7 @@
 
 - name: Kshitij Darekar
   img: kshitij.jpg
-  location: Navi Mumbai , India
+  location: Navi Mumbai, India
   twitter : https://twitter.com/darekar_kshitij
   linkedin : https://www.linkedin.com/in/kshitij-darekar/
   github : https://github.com/KshitijDarekar
@@ -88,7 +88,7 @@
 
 - name: Riya Dev Varshney 
   img: riya.png
-  location: Dehi, India
+  location: Delhi, India
   twitter : https://twitter.com/RiyaDevVarshne1
   linkedin : https://www.linkedin.com/in/riya-dev-varshney-361304197/
   github : https://github.com/Riyadevvarshney11
@@ -96,7 +96,7 @@
 
 - name: Tushar Malik
   img: tushar.png
-  location: New Delhi , India
+  location: New Delhi, India
   twitter : https://twitter.com/ditsuke00
   linkedin : https://www.linkedin.com/in/mtushar00/
   github : https://github.com/ditsuke
@@ -104,17 +104,16 @@
 
 - name: Vaibhave S
   img: vaibhave.jpg
-  location: Chennai , India
+  location: Chennai, India
   twitter : 
   linkedin : https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/
   github : https://github.com/VaibhaveS
   resume : https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB
 
-- name: Yijun Yan (aka Lincoln)
+- name: Yijun Yan (Lincoln)
   img: yan.jpg
-  location: Sydney , Australia
+  location: Sydney, Australia
   twitter : 
   linkedin : https://www.linkedin.com/in/yyjlincoln/
   github : https://github.com/yyjlincoln
   resume : https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb
-
