@@ -1,20 +1,20 @@
 - title: Online Shopping App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
-  page-name: project
+  page-name: project1
   background: /assets/img/shopping_app.jpg
   tech: React
 
 - title: Todo List
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
-  page-name: project
+  page-name: project2
   background: /assets/img/todo_app.jpg
   tech: React Native
 
 - title: iOS App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
-  page-name: project
+  page-name: project3
   background: /assets/img/ios_app.jpg
   tech: Swift
