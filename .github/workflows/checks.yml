@@ -1,0 +1,9 @@
+name: Code Style
+on: [ push, pull_request ]
+jobs:
+  editorconfig_check:
+    name: EditorConfig
+    runs-on: ubuntu-latest
+    steps:
+      - name: editorconfig-checker-action
+        uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
