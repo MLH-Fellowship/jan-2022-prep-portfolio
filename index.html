@@ -4,14 +4,20 @@
 <html lang="en">
 {% include header.html %}
 
-<body>
+<body class="hidden">
+    <div class="main-content">
     {% include navbar.html %}
-
+  
     {% include profile.html %}
-    
+   
     {% include description.html %}
-    
+   
     {% include projects.html %}
+   
+    {% include toggle.html %}
+    </div>
 </body>
+
+{% include footer.html %}
 
 </html>
