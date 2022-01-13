@@ -21,10 +21,10 @@ var fellows = [
     	lat:-14.2350,
     	long:-51.9253,
     	pic:'swift.jpg',
-        name: 'Gabriell',
+        name: 'Gabriel Cruz',
         location: 'Brazil',
-        github: '/',
-        linkedin: '/',
+        github: 'https://github.com/gmelodie',
+        linkedin: 'https://www.linkedin.com/in/gabriel-de-melo-cruz/',
         role: 'Pod Leader',
     },
     {
