@@ -1,8 +1,9 @@
-var map = L.map('map').setView([51.505, -0.09], 4);
+var map = L.map('map').setView([40.7351, -74.1718], 2);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
+    minZoom: 2,
 }).addTo(map);
 
 var fellows = [
@@ -13,7 +14,8 @@ var fellows = [
         name: 'Aaron',
         location: 'XYZ',
         github: '/',
-        linkedin: '/'
+        linkedin: '/',
+        role: 'Fellow',
     },
     {
     	lat:41.5,
@@ -22,7 +24,8 @@ var fellows = [
         name: 'Swift',
         location: 'New York',
         github: '/',
-        linkedin: '/'
+        linkedin: '/',
+        role: 'Pod Leader',
     },
 ];
 
@@ -66,12 +69,11 @@ for(var i=0;i<fellows.length;i++){
     var icon = L.icon({
         iconUrl: '/assets/img/'+fellows[i].pic,
         iconSize:     [40, 40], // size of the icon
-        iconAnchor:   [22, 72], // point of the icon which will correspond to marker's location
-        popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
     });
     var popup = `<div class="container">
-                <h4><b>${fellows[i].name}</b></h4>
-                <b>${fellows[i].location}</b>
+                <h4 style='display:inline'><b>${fellows[i].name}</b><h6 style='display:inline'>, ${fellows[i].role}</h6></h4>
+                <hr/><b>${fellows[i].location}</b>
                 <br><b>Nearest to ${fellows[i].neighbour}!</b>
                 <div >
                 <a href=${fellows[i].linkedin}><em class="fab fa-linkedin"></em></a>
