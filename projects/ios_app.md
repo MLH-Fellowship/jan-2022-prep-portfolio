@@ -1,6 +1,6 @@
 ---
-title: My Project
-
+title: My iOS app
+banner: /assets/img/ios_app.jpg
 layout: project
 ---
 
