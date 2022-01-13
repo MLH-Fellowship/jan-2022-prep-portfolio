@@ -1,5 +1,5 @@
 - name: Advitiay Anand
-  img: aaron.jpg
+  img: advitiay.JPG
   twitter : 
   location: Amritsar, India
   linkedin : https://www.linkedin.com/in/advitiay-anand/
@@ -7,7 +7,7 @@
   resume : https://drive.google.com/open?id=1m2UVlRBu5gSjXUYK9xYybwEXSK9CauTv
 
 - name: Aniket Pal
-  img: aaron.jpg
+  img: pal.jpg
   location: Durgapur, India
   twitter : 
   linkedin : https://www.linkedin.com/in/aniket-pal/
@@ -15,7 +15,7 @@
   resume : https://drive.google.com/open?id=1_x8NgXgL1uhJjZ3eH9-6Kuaf40Oul3o4
 
 - name: Anubhav Gupta
-  img: aaron.jpg
+  img: anubhav.jpg
   location: New Delhi, India
   twitter : https://twitter.com/anubhavstwt
   linkedin : https://www.linkedin.com/in/anubhav-gupta06/
@@ -23,23 +23,23 @@
   resume : https://drive.google.com/open?id=1rG7vzWnByQP2NN5Cp5soICh0EZaOl9ri
 
 - name: Dhruv Sachdev
-  img: swift.jpg
-  location: Mumbai , India
+  img: dhruv.jpg
+  location: Mumbai, India
   twitter : https://twitter.com/dhruvhsachdev
   linkedin : https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/
   github : https://github.com/Dhruv-Sachdev1313
   resume : https://drive.google.com/open?id=18gLvlyB_KDchoI7siimOPDaLZGjR_q-t
 
 - name: Emeka
-  img: swift.jpg
-  location: Massachusetts, USA
+  img: emeka.JPG
+  location: Weymouth, USA
   twitter :
   linkedin : https://www.linkedin.com/in/emeka-mba/
   github : https://gitHub.com/Chukwuemeka-Mba
   resume : https://drive.google.com/open?id=1b7xob_HcVxQn2zsz9HObxoQpuUlMsz1Z
 
 - name: Harsh Sharma
-  img: logo.jpg
+  img: harsh.png
   location: Gurgaon, India
   twitter : 
   linkedin : linkedin.com/in/harsh-sharma-486a38211
@@ -47,7 +47,7 @@
   resume : https://drive.google.com/open?id=18b0kXay4kn5SyS47ZX1y3ibY6VV-SNR-
 
 - name: Khudadad Nomani
-  img: amanda.jpg
+  img: nomani.jpg
   location: Peshawar, Pakistan
   twitter : 
   linkedin : 
@@ -55,7 +55,7 @@
   resume : https://drive.google.com/open?id=1XWocTrR7A-7htj4IcMmT1VQwwrPV-9p9
 
 - name: Kish
-  img: aaron.jpg
+  img: Kish.jpeg
   location: Ottawa, Canada
   twitter : 
   linkedin : LinkedIn.com/in/kishdubey
@@ -63,15 +63,15 @@
   resume : https://drive.google.com/open?id=1mMzU_71fU2Hupcg2HD9oA5dHgD_c4M00
 
 - name: Kshitij Darekar
-  img: swift.jpg
-  location: Navi Mumbai , India
+  img: kshitij.jpg
+  location: Navi Mumbai, India
   twitter : https://twitter.com/darekar_kshitij
   linkedin : https://www.linkedin.com/in/kshitij-darekar/
   github : https://github.com/KshitijDarekar
   resume : https://drive.google.com/open?id=1R8daUnR3Fnu6eXAs5TW0IVVtOblrlRg8
 
 - name: Pritish Samal
-  img: logo.jpg
+  img: pritish.jpeg
   location: Berhampur, India
   twitter : https://twitter.com/PritishSamal11
   linkedin : https://linkedin.com/in/pritishsamal
@@ -79,7 +79,7 @@
   resume : https://drive.google.com/open?id=1pTQrUJdguIZ-Y0m76zsKoeonZRKjMc__
 
 - name: P.Sahithi Reddy
-  img: amanda.jpg
+  img: Sahithi.jpeg
   location: Mahabubnagar, India
   twitter : 
   linkedin : https://www.linkedin.com/in/sahithi-reddy-perkampally-b054220/
@@ -87,32 +87,32 @@
   resume : https://drive.google.com/open?id=1lqQrwSwnSYPO-e0tM75Q22zma-u2gmvx
 
 - name: Riya Dev Varshney 
-  img: aaron.jpg
-  location: Dehi, India
+  img: riya.png
+  location: Delhi, India
   twitter : https://twitter.com/RiyaDevVarshne1
   linkedin : https://www.linkedin.com/in/riya-dev-varshney-361304197/
   github : https://github.com/Riyadevvarshney11
   resume : https://drive.google.com/open?id=1aNd__JkPQ6b8I7MDvpwoVyAnsVA-N9Rz
 
 - name: Tushar Malik
-  img: swift.jpg
-  location: New Delhi , India
+  img: tushar.png
+  location: New Delhi, India
   twitter : https://twitter.com/ditsuke00
   linkedin : https://www.linkedin.com/in/mtushar00/
   github : https://github.com/ditsuke
   resume : https://drive.google.com/open?id=1E_GuGeYYbatBegk6wYCNug1uNebz0HcI
 
 - name: Vaibhave S
-  img: swift.jpg
-  location: Chennai , India
+  img: vaibhave.jpg
+  location: Chennai, India
   twitter : 
   linkedin : https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/
   github : https://github.com/VaibhaveS
   resume : https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB
 
-- name: Yijun Yan (aka Lincoln)
-  img: swift.jpg
-  location: Sydney , Australia
+- name: Yijun Yan (Lincoln)
+  img: yan.jpg
+  location: Sydney, Australia
   twitter : 
   linkedin : https://www.linkedin.com/in/yyjlincoln/
   github : https://github.com/yyjlincoln
