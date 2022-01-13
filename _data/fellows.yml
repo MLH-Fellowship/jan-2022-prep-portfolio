@@ -1,15 +1,59 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Advitiay Anand
+  img: advitiay.JPG
+  location: Amritsar, India
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Aniket Pal
+  img: pal.jpg
+  location: Durgapur, India
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Anubhav Gupta
+  img: anubhav.jpg
+  location: New Delhi, India
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Dhruv Sachdev
+  img: dhruv.jpg
+  location: Mumbai, India
+
+- name: Emeka
+  img: emeka.JPG
+  location: Weymouth, USA
+
+- name: Harsh Sharma
+  img: harsh.png
+  location: Gurgaon, India
+
+- name: Khudadad Nomani
+  img: nomani.jpg
+  location: Peshawar, Pakistan
+
+- name: Kish
+  img: Kish.jpeg
+  location: Ottawa, Canada
+
+- name: Kshitij Darekar
+  img: kshitij.jpg
+  location: Navi Mumbai, India
+
+- name: P.Sahithi Reddy
+  img: Sahithi.jpeg
+  location: Mahabubnagar, India
+
+- name: Pritish Samal
+  img: pritish.jpeg
+  location: Berhampur, India
+
+- name: Riya Dev Varshney
+  img: riya.png
+  location: Delhi, India
+
+- name: Tushar Malik
+  img: tushar.png
+  location: New Delhi, India
+
+- name: Vaibhave S
+  img: vaibhave.jpg
+  location: Chennai, India
+
+- name: Yijun Yan
+  img: yan.jpg
+  location: Sydney, Australia
