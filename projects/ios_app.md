@@ -6,16 +6,32 @@ layout: project
 
 ## Inspiration
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is an ios app  build for selling of any products online. In this project we have mainly considered to adding the products to the users cart and again let them decide the amount of item to buy. The users can increase or decrease the items amount in the cart. After that the user may pay and get the order successful. The Project also uses the mail facilities to the users.
 
 ## What it does
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The application contains list of products on which user can click to view its details and then, add them to cart. User can like and dislike the product as well. Also, User can sell products, if he/she signed up as a Seller. Some other features are as following:
+<ul>
+  <li>Login / Signup with OTP Verification</li>
+  <li>Recyclerview with variable span size to show products</li>
+  <li>Search Bar and filtering</li>
+  <li>See all orders placed</li>
+  <li>Add/Edit Product for Sellers</li>
+  <li>Increase/Decrease quantity of product in cart</li>
+  <li>Place Order</li>
+  <li>Modify status of order for Seller</li>
+</ul>
 
 ## How we built it
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<ul>
+<li> Frontend — In the frontend side, we used React as the frontend library. We use Redux for state management. We use React Bootstrap library for basic designing of the interface.</li>
+<li> Backend — For the backend side, we used the Express library on top of Nodejs. </li>
+<li> We used MongoDB as the NoSQL database to store our data as documents in JSON format. We usedmongoose to connect to our MongoDB database.</li>
+<li>We created REST APIs with Express and use these endpoints in the React frontend to interact with our backend part.</li>
+</ul>
 
 ## Challenge we ran into
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Since our project requires a huge database of all the products and sellers, it was initially a challenge to think of ideas to maintain and update the databases. For this, we can use any cloud-based platform. The project requires a solid back-end, implementing which was quite a challenge as it was a new concept and we had to learn and implement a lot of new concepts in a very limited period of time.
+But all in all, it was great fun building this project together.
