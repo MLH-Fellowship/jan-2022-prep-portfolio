@@ -4,7 +4,7 @@
 @import "profile";
 @import "page";
 @import "darkmode";
-@import 'footer';
+@import "footer";
 
 
 .card-container {
@@ -46,6 +46,7 @@ body {
   background-color: #f5f5f9;
   margin-bottom: 50px;
 }
+
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -104,30 +105,94 @@ a {
 }
 
 .main-content {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 .info {
-  p {
-    margin-top: 5px;
-    margin: 0px;
-    text-align: left;
-  }
+    p {
+        margin-top: 5px;
+        margin: 0px;
+        text-align: left;
+    }
 
-  .title {
-    font-size: 500;
-    font-weight: bold;
-  }
+    .title {
+        font-size: 500;
+        font-weight: bold;
+    }
 
-  .location, .description {
-    font-size: medium;
-    font-weight: 400;
-  }
+    .location,
+    .description {
+        font-size: medium;
+        font-weight: 400;
+    }
 
-  .dates {
-    font-size: small;
-    color: #404040;
-  }
+    .dates {
+        font-size: small;
+        color: #404040;
+    }
+
+    .social-link {
+        display: flex;
+        margin-top: 10px;
+
+        i.fab,
+        i.fas,
+        i.far {
+            padding: 0px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                opacity: 0.5;
+                transform: scale(1.1);
+            }
+        }
+
+        .linkedin {
+            margin-left: 10px;
+        }
+
+        .github {
+            margin-left: 10px;
+        }
+
+        .resume {
+            margin-left: 10px;
+        }
+
+        .twitter {
+            .fa-twitter {
+                background: #32ccfe;
+                color: white;
+                padding: 4px;
+            }
+        }
+
+        .linkedin {
+            .fa-linkedin {
+                background: #0a66c2;
+                color: white;
+                padding: 4px;
+            }
+        }
+
+        .github {
+            .fa-github {
+                background: rgb(44, 44, 44);
+                color: white;
+                padding: 4px;
+            }
+        }
+
+        .resume {
+            .fa-file-alt {
+                padding: 4px;
+                transform: scale(1.2);
+            }
+        }
+    }
 }
 
 .icon {
