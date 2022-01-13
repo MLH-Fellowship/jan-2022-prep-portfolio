@@ -2,10 +2,15 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
+
 {% include header.html %}
 
-<body>
-    {{ content }}
+<body class="hidden">
+    <div class="main-content">
+        {{ content }}
+    </div>
 </body>
+
+{% include footer.html %}
 
 </html>
