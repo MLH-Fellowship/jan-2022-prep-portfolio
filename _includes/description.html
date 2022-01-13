@@ -1,9 +1,12 @@
 <h2>Meet the Pod</h2>
 <div class="card-container">
+    
     {% for item in site.data.fellows %}
     <div class="card">
         <div class="info">
-            <p class="title"> {{ item.name }}</p>
+            <a href="/about/{{item.name | remove:' '}}">
+                <p class="title"> {{ item.name }}</p>
+            </a>
             <p class="location"> {{ item.location }}</p>
         </div>
     </div>

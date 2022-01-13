@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="banner">
+    <div class="container">
+        <div class="logo">
+            <a href="/">
+                <img src="/assets/img/logo.svg"/>
+            </a>
+        </div>
+        <div class="title">
+            {{ page.Name }}
+        </div>
+    </div>
+</div>
+
+<div class="container page">
+    <div>
+        Add all the desigining here then refrence each data like this:
+        
+
+        To get the Name: {{page.Name}} <br> 
+        To get the City: {{page.City}} <br>
+        To get the favourite programming language: {{page.Favourite-Programming-Languages}} <br>
+
+    </div>
+    {% include toggle.html %}
+    <!-- Global Wrapper, excluding index.html -->
+</div>
