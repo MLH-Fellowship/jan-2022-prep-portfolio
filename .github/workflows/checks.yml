@@ -1,8 +1,8 @@
+name: Code Style
 on: [ push, pull_request ]
-
 jobs:
   editorconfig_check:
-    name: EditorConfig Check
+    name: EditorConfig
     runs-on: ubuntu-latest
     steps:
       - name: editorconfig-checker-action
