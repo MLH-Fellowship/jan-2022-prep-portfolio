@@ -1,0 +1,18 @@
+#animation-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000000;
+    pointer-events: all;
+    opacity: 1;
+}
+
+.animation-hidden {
+    display: none;
+}
+
+.cursor-wait {
+    cursor: wait;
+}

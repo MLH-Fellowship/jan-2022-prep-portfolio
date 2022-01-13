@@ -83,6 +83,22 @@
   .adaptive-theme-color {
     background-color: #b9d1f2;
   }
+
+  .light-only {
+    display: none;
+  }
+
+  .dark-only {
+    display: block;
+  }
+}
+
+.light-only {
+  display: block;
+}
+
+.dark-only {
+  display: none;
 }
 
 .adaptive-text {
