@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: P.Sahithi Reddy
 University: IIIT Hyderabad

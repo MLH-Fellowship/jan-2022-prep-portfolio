@@ -1,8 +1,8 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Aniket Pal
-University: NIT Rourkela 
+University: NIT Rourkela
 City: Durgapur
 Country: India
 Bio: Ready to build anytime

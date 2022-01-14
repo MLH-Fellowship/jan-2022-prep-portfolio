@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Kish
 University: University of Ottawa

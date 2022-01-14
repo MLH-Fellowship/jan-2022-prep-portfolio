@@ -1,11 +1,11 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
-Name: Riya Dev Varshney 
-University: Delhi Technological University 
+Name: Riya Dev Varshney
+University: Delhi Technological University
 City: Dehi
 Country: India
-Bio: Incoming Intern at Microsoft 
+Bio: Incoming Intern at Microsoft
 Favourite-Programming-Languages: Python
 Interests-Outside-Of-Tech: Painting, Music
 GitHub: https://github.com/Riyadevvarshney11

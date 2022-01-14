@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Pritish Samal
 University: National Institute of Technology, Rourkela

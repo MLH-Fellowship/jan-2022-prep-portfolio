@@ -1,7 +1,7 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
-Name: Yijun Yan 
+Name: Yijun Yan
 University: High School Graduate - Will update by the end of the program
 City: Sydney
 Country: Australia

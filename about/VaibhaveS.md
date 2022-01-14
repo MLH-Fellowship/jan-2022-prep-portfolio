@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Vaibhave S
 University: VIT, Vellore Institute of Technology

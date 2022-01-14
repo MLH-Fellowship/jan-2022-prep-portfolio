@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Kshitij Darekar
 University: University Of Mumbai

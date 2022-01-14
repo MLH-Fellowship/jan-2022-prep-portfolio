@@ -1,11 +1,11 @@
 ---
-layout: profile
+layout: profile-layout
 title : test
 Name: Dhruv Sachdev
 University: Mumbai University
-City: Mumbai 
+City: Mumbai
 Country: India
-Bio: I am a big time open source enthusiast and have been contributing to organisations like CHAOSS. I love working on open source security. When I am not in front of my computer, I really enjoy being outside and do my Yoga practises! 
+Bio: I am a big time open source enthusiast and have been contributing to organisations like CHAOSS. I love working on open source security. When I am not in front of my computer, I really enjoy being outside and do my Yoga practises!
 Favourite-Programming-Languages: Python, Kotlin, Go
 Interests-Outside-Of-Tech: Photography, Music, Travel
 GitHub: https://github.com/Dhruv-Sachdev1313
