@@ -127,7 +127,7 @@ var fellows = [
         linkedin: 'https://www.linkedin.com/in/aniket-pal/',
         role: 'Fellow',
     },
-    {   
+    {
         lat:28.4817,
         long:77.1873,
         pic:'anubhav.jpg',
