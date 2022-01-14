@@ -79,6 +79,10 @@ function install() {
             if (target === '_blank') {
                 // Open the link in a new window
                 window.open(href);
+            } else if (href.startsWith("#")) {
+                if (href !== "#") {
+                    gsap.to(window, { duration: 0.3, scrollTo: href, ease: "expo.out" });
+                }
             } else {
                 pageTransition(href);
             }

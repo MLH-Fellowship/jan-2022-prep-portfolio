@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="banner">
+    <div class="container project-header">
+        <div>
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/img/mlh-prep.png" style="width:200px" />
+                </a>
+            </div>
+            <div class="title" style="font-size: 45px;">
+                {{ page.title }}
+            </div>
+        </div>
+        <a class="btn btn-outline-light" href="/">Go To Home</a>
+    </div>
+</div>
+
+<div class="container page">
+    <div style="height: 400px; width: 100%; overflow:hidden; ">
+        <img src={{page.banner}} style="padding-top: 20px; width:100%; " />
+    </div>
+
+    {{ content }}
+
+</div>
