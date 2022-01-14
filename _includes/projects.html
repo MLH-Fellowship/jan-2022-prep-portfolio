@@ -3,21 +3,20 @@
     {% for item in site.data.projects %}
     {% if item.page-name %}
     <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card project-card" style="background-image:
+        {% else %}
+        <a>
+            {% endif %}
+            <div class="card project-card" style="background-image:
       url({{item.background}});">
-      <div class="gradient" >
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="location"> Made with ❤️ using {{ item.tech }}</p>
-          <p class="dates">{{ item.date }}</p>
-        </div>
-      </div>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-  
+                <div class="gradient">
+                    <div class="info">
+                        <p class="title">{{ item.title }}</p>
+                        <p class="location">{{ item.event }}</p>
+                        <p class="location"> Made with ❤️ using {{ item.tech }}</p>
+                        <p class="dates">{{ item.date }}</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+</div>
