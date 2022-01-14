@@ -201,7 +201,7 @@ function median(Fellows){
 }
 
 function distance(Fellow1,Fellow2) {
-    lat1=Fellow1.lat,lat2=Fellow2.lat, lon1=Fellow1.long, lon2=Fellow2.long
+    var lat1=Fellow1.lat,lat2=Fellow2.lat, lon1=Fellow1.long, lon2=Fellow2.long
     // The math module contains a function
     // named toRadians which converts from
     // degrees to radians.
