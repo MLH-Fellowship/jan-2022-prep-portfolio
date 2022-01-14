@@ -1,0 +1,73 @@
+---
+layout: page
+---
+
+<div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+    <div class="card fellow-card p-3">
+        <div
+            class="fellow-image d-flex flex-column justify-content-center align-items-center"
+        >
+            <button class="btn btn-secondary fellow-btn">
+                <img
+                    src="../assets/img/{{page.Image}}"
+                    height="100"
+                    width="100"
+                />
+            </button>
+            <span class="fellow-name mt-3 adaptive-text">{{ page.Name }}</span>
+            <span class="fellow-city adaptive-text"
+                >{{ page.City }} , {{ page.Country }}</span
+            >
+            <div
+                class="d-flex flex-row justify-content-center align-items-center mt-3 text-center adaptive-text fellow-color"
+            >
+                {{ page.University }}
+            </div>
+
+            <span class="fellow-name mt-1 adaptive-text">Bio</span>
+            <span class="fellow-bio">
+                <em class="adaptive-text fellow-color"> {{ page.Bio }} </em>
+            </span>
+
+            <span class="fellow-details mt-1 adaptive-text">
+                Favourite Programming languages</span
+            >
+
+            <div
+                class="d-flex flex-row justify-content-center align-items-center gap-2 text-center adaptive-text fellow-color"
+            >
+                {{ page.Favourite-Programming-Languages }}
+            </div>
+
+            <span class="fellow-details mt-1 adaptive-text"
+                >Interests out of Tech</span
+            >
+
+            <div
+                class="d-flex flex-row justify-content-center align-items-center gap-2 text-center adaptive-text fellow-color"
+            >
+                {{ page.Interests-Outside-Of-Tech }}
+            </div>
+
+            <div class="d-flex mt-2">
+                <a href="{{ page.Resume }}"
+                    ><button class="resume-btn btn-dark">Resume</button></a
+                >
+            </div>
+            <div class="text mt-3"></div>
+            <div
+                class="gap-of-3 mt-3 social-icons d-flex flex-row justify-content-center align-items-center text-center"
+            >
+                <a href="{{ page.Twitter }}">
+                    <span><i class="fa fa-twitter"></i></span>
+                </a>
+                <a href="{{ page.GitHub }}">
+                    <span><i class="fa fa-github"></i></span>
+                </a>
+                <a href="{{ page.LinkedIn }}">
+                    <span><i class="fa fa-linkedin"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

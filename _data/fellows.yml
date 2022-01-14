@@ -1,5 +1,5 @@
 ---
-  - 
+  -
     name: "Advitiay Anand"
     img: "advitiay.jpg"
     issues: 0
@@ -10,7 +10,8 @@
     linkedin: "https://www.linkedin.com/in/advitiay-anand/"
     github: "https://github.com/adizcode"
     resume: "https://drive.google.com/open?id=1m2UVlRBu5gSjXUYK9xYybwEXSK9CauTv"
-  - 
+    profileURL: /about/AdvitiayAnand
+  -
     name: "Aniket Pal"
     img: "pal.jpg"
     issues: 0
@@ -21,7 +22,8 @@
     linkedin: "https://www.linkedin.com/in/aniket-pal/"
     github: "https://github.com/Aniket762"
     resume: "https://drive.google.com/open?id=1_x8NgXgL1uhJjZ3eH9-6Kuaf40Oul3o4"
-  - 
+    profileURL: /about/AniketPal
+  -
     name: "Anubhav Gupta"
     img: "anubhav.jpg"
     issues: 0
@@ -32,7 +34,8 @@
     linkedin: "https://www.linkedin.com/in/anubhav-gupta06/"
     github: "https://github.com/anubhav06"
     resume: "https://drive.google.com/open?id=1rG7vzWnByQP2NN5Cp5soICh0EZaOl9ri"
-  - 
+    profileURL: /about/AnubhavGupta
+  -
     name: "Dhruv Sachdev"
     img: "dhruv.jpg"
     issues: 0
@@ -43,7 +46,8 @@
     linkedin: "https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/"
     github: "https://github.com/Dhruv-Sachdev1313"
     resume: "https://drive.google.com/open?id=18gLvlyB_KDchoI7siimOPDaLZGjR_q-t"
-  - 
+    profileURL: /about/DhruvSachdev
+  -
     name: "Emeka"
     img: "emeka.jpg"
     issues: 0
@@ -54,7 +58,8 @@
     linkedin: "https://www.linkedin.com/in/emeka-mba/"
     github: "https://gitHub.com/Chukwuemeka-Mba"
     resume: "https://drive.google.com/open?id=1b7xob_HcVxQn2zsz9HObxoQpuUlMsz1Z"
-  - 
+    profileURL: /about/Emeka
+  -
     name: "Harsh Sharma"
     img: "harsh.png"
     issues: 0
@@ -65,7 +70,8 @@
     linkedin: "linkedin.com/in/harsh-sharma-486a38211"
     github: "https://github.com/harshsharma6401"
     resume: "https://drive.google.com/open?id=18b0kXay4kn5SyS47ZX1y3ibY6VV-SNR-"
-  - 
+    profileURL: /about/HarshSharma
+  -
     name: "Khudadad Nomani"
     img: "nomani.jpg"
     issues: 1
@@ -76,7 +82,8 @@
     linkedin: null
     github: "https://github.com/KhudaDad414"
     resume: "https://drive.google.com/open?id=1XWocTrR7A-7htj4IcMmT1VQwwrPV-9p9"
-  - 
+    profileURL: /about/KhudadadNomani
+  -
     name: "Kish"
     img: "Kish.jpeg"
     issues: 0
@@ -84,10 +91,11 @@
     reviews: 0
     location: "Ottawa, Canada"
     twitter: null
-    linkedin: "LinkedIn.com/in/kishdubey"
-    github: "GitHub.com/kishdubey"
+    linkedin: "https://linkedIn.com/in/kishdubey"
+    github: "https://gitHub.com/kishdubey"
     resume: "https://drive.google.com/open?id=1mMzU_71fU2Hupcg2HD9oA5dHgD_c4M00"
-  - 
+    profileURL: /about/Kish
+  -
     name: "Kshitij Darekar"
     img: "kshitij.jpg"
     issues: 0
@@ -98,7 +106,8 @@
     linkedin: "https://www.linkedin.com/in/kshitij-darekar/"
     github: "https://github.com/KshitijDarekar"
     resume: "https://drive.google.com/open?id=1R8daUnR3Fnu6eXAs5TW0IVVtOblrlRg8"
-  - 
+    profileURL: /about/KshitijDarekar
+  -
     name: "Pritish Samal"
     img: "pritish.jpeg"
     issues: 0
@@ -109,7 +118,8 @@
     linkedin: "https://linkedin.com/in/pritishsamal"
     github: "https://github.com/CIPHERTron"
     resume: "https://drive.google.com/open?id=1pTQrUJdguIZ-Y0m76zsKoeonZRKjMc__"
-  - 
+    profileURL: /about/PritishSamal
+  -
     name: "P.Sahithi Reddy"
     img: "Sahithi.jpeg"
     issues: 0
@@ -120,7 +130,9 @@
     linkedin: "https://www.linkedin.com/in/sahithi-reddy-perkampally-b054220/"
     github: "https://github.com/psahithireddy"
     resume: "https://drive.google.com/open?id=1lqQrwSwnSYPO-e0tM75Q22zma-u2gmvx"
-  - 
+    profileURL: /about/P.SahithiReddy
+
+  -
     name: "Riya Dev Varshney"
     img: "riya.png"
     issues: 0
@@ -131,7 +143,8 @@
     linkedin: "https://www.linkedin.com/in/riya-dev-varshney-361304197/"
     github: "https://github.com/Riyadevvarshney11"
     resume: "https://drive.google.com/open?id=1aNd__JkPQ6b8I7MDvpwoVyAnsVA-N9Rz"
-  - 
+    profileURL: /about/RiyaDevVarshney
+  -
     name: "Tushar Malik"
     img: "tushar.png"
     issues: 0
@@ -142,7 +155,8 @@
     linkedin: "https://www.linkedin.com/in/mtushar00/"
     github: "https://github.com/ditsuke"
     resume: "https://drive.google.com/open?id=1E_GuGeYYbatBegk6wYCNug1uNebz0HcI"
-  - 
+    profileURL: /about/TusharMalik
+  -
     name: "Vaibhave S"
     img: "vaibhave.jpg"
     issues: 0
@@ -153,7 +167,8 @@
     linkedin: "https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/"
     github: "https://github.com/VaibhaveS"
     resume: "https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB"
-  - 
+    profileURL: /about/VaibhaveS
+  -
     name: "Yijun Yan (Lincoln)"
     img: "yan.jpg"
     issues: 3
@@ -164,4 +179,4 @@
     linkedin: "https://www.linkedin.com/in/yyjlincoln/"
     github: "https://github.com/yyjlincoln"
     resume: "https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb"
-
+    profileURL: /about/Lincoln
