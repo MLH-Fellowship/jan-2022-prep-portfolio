@@ -70,9 +70,7 @@ reviews: 3
   - 
     name: "Khudadad Nomani"
     img: "nomani.jpg"
-    issues: 2
-    commits: 2
-    reviews: 3
+    contributions: 4
     location: "Peshawar, Pakistan"
     twitter: null
     linkedin: null
