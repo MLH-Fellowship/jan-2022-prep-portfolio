@@ -23,12 +23,11 @@
     resume: "https://drive.google.com/open?id=1_x8NgXgL1uhJjZ3eH9-6Kuaf40Oul3o4"
   - 
     name: "Anubhav Gupta"
-    img: "anubhav.jpg"
-    
-issues: 2
-commits: 2
-reviews: 3
- location: "New Delhi, India"
+    img: "anubhav.jpg" 
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "New Delhi, India"
     twitter: "https://twitter.com/anubhavstwt"
     linkedin: "https://www.linkedin.com/in/anubhav-gupta06/"
     github: "https://github.com/anubhav06"
@@ -36,11 +35,10 @@ reviews: 3
   - 
     name: "Dhruv Sachdev"
     img: "dhruv.jpg"
-    
-issues: 2
-commits: 2
-reviews: 3
- location: "Mumbai, India"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Mumbai, India"
     twitter: "https://twitter.com/dhruvhsachdev"
     linkedin: "https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/"
     github: "https://github.com/Dhruv-Sachdev1313"
@@ -70,7 +68,9 @@ reviews: 3
   - 
     name: "Khudadad Nomani"
     img: "nomani.jpg"
-    contributions: 4
+    issues: 2
+    commits: 2
+    reviews: 3
     location: "Peshawar, Pakistan"
     twitter: null
     linkedin: null
@@ -156,11 +156,10 @@ reviews: 3
   - 
     name: "Yijun Yan (Lincoln)"
     img: "yan.jpg"
-    
-issues: 2
-commits: 2
-reviews: 3
- location: "Sydney, Australia"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Sydney, Australia"
     twitter: null
     linkedin: "https://www.linkedin.com/in/yyjlincoln/"
     github: "https://github.com/yyjlincoln"
