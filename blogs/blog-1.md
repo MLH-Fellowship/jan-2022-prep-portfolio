@@ -1,6 +1,6 @@
 ---
 title: Sample Blog
-layout: page
+layout: blog
 ---
 
 # Heading 1
