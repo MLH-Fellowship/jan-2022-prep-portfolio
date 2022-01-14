@@ -8,16 +8,16 @@
             <div class="social-link">
                 <div class="twitter">
                     {% if item.twitter %}
-                        <a href="{{item.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="{{item.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
                     {% else %}
-                        <i class="fab fa-twitter" style="background-color: grey;"></i>
+                    <i class="fab fa-twitter" style="background-color: grey;"></i>
                     {% endif %}
                 </div>
                 <div class="linkedin">
                     {% if item.linkedin %}
-                        <a href="{{item.linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="{{item.linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a>
                     {% else %}
-                        <i class="fab fa-linkedin" style="background-color: grey;"></i>
+                    <i class="fab fa-linkedin" style="background-color: grey;"></i>
                     {% endif %}
                 </div>
                 <div class="github">
@@ -25,6 +25,17 @@
                 </div>
                 <div class="resume">
                     <a href="{{item.resume}}" target="_blank"><i class="far fa-file-alt"></i></a>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stats">
+                    <span class="stats-content">Commits:</span> <span class="adaptive-text">{{item.commits}}</span>
+                </div>
+                <div class="stats">
+                    <span class="stats-content">Reviews:</span> <span class="adaptive-text">{{item.reviews}}</span>
+                </div>
+                <div class="stats">
+                    <span class="stats-content">Issues:</span> <span class="adaptive-text">{{item.issues}}</span>
                 </div>
             </div>
         </div>
