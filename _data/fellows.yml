@@ -69,7 +69,7 @@
     name: "Khudadad Nomani"
     img: "nomani.jpg"
     issues: 0
-    commits: 0
+    commits: 1
     reviews: 0
     location: "Peshawar, Pakistan"
     twitter: null
@@ -164,3 +164,4 @@
     linkedin: "https://www.linkedin.com/in/yyjlincoln/"
     github: "https://github.com/yyjlincoln"
     resume: "https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb"
+
