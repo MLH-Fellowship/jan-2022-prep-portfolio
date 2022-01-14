@@ -5,6 +5,8 @@ on:
     types:
       - submitted
   push:
+    branches:    
+      - main
   issues:
     types:
       - opened
