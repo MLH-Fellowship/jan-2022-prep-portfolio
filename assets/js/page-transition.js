@@ -83,6 +83,13 @@ function install() {
         localStorage.setItem("transition-enabled", "");
         localStorage.setItem("transition-from", "");
         animationLock = "after-new-page"
+
+        // Check if there's a #
+        const elementToScrollTo = location.href.split("#")[1]
+        if (elementToScrollTo) {
+            gsap.to(window, { duration: 0.3, scrollTo: `#${elementToScrollTo}`, ease: "expo.out" });
+        }
+
         afterPageTransition(localStorage.getItem("transition-from")).then(() => {
             animationLock = null
         })
