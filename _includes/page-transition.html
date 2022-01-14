@@ -1,0 +1,15 @@
+<div id="animation-layer" class="animation-hidden adaptive-theme-color-dark no-transition">
+    <!--
+        Class .no-transition here means that the class will not be affected by (automatic) darkmode transitions.
+        This will break the transition javascript as gsap will manipulate the position (etc) properties to
+        achieve the sliding motion of this element.
+
+        This will not affect the background colour transition as that's specified in #animation-content.
+    -->
+    <div id="animation-content">
+        <div class="logo-image-wrapper">
+            <img class="logo-image" src="/assets/img/mlh-prep.png" />
+        </div>
+    </div>
+</div>
+<script src="/assets/js/page-transition.js"></script>
