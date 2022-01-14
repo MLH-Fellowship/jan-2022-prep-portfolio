@@ -1,7 +1,7 @@
 ---
   - 
     name: "Advitiay Anand"
-    img: "advitiay.JPG"
+    img: "advitiay.jpg"
     issues: 0
     commits: 0
     reviews: 0
@@ -45,7 +45,7 @@
     resume: "https://drive.google.com/open?id=18gLvlyB_KDchoI7siimOPDaLZGjR_q-t"
   - 
     name: "Emeka"
-    img: "emeka.JPG"
+    img: "emeka.jpg"
     issues: 0
     commits: 0
     reviews: 0
@@ -164,4 +164,3 @@
     linkedin: "https://www.linkedin.com/in/yyjlincoln/"
     github: "https://github.com/yyjlincoln"
     resume: "https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb"
-
