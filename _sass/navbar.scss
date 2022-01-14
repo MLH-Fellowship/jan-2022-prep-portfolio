@@ -63,3 +63,32 @@
   padding-top: 0px;
   padding-right: 0px;
 }
+
+.icon {
+  display: none;
+  color: white;
+}
+
+ /* When the screen is less than 700 pixels wide, hide all navigation links. Show the link that contains should open and close the nav-list (.icon) */
+ @media screen and (max-width: 700px) {
+  .nav-list {display: none;}
+  // .icon {
+  //   float: right;
+  //   display: block;
+  // }
+}
+
+/* The "responsive" class is added to the nav-list with JavaScript when the user clicks on the icon. This class makes the nav-list look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 700px) {
+  .nav-list.responsive {position: relative;}
+  .nav-list.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-list.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
