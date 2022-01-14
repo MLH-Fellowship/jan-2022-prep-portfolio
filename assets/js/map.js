@@ -190,7 +190,7 @@ var fellows = [
 ];
 
 function median(Fellows){
-    var lat=0.0,long=0.0
+    let lat=0.0,long=0.0
     for(var i=0;i<Fellows.length;i++){
         lat+=Fellows[i].lat;
         long+=Fellows[i].long;
@@ -277,7 +277,7 @@ if (navigator.geolocation) {
     );
 }  
 
-Medobj=median(fellows);
+let Medobj=median(fellows);
 
 var icon = L.icon({
         iconUrl: '/assets/img/tea.jpeg',
