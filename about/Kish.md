@@ -8,7 +8,7 @@ Country: Canada
 Bio:  Founder of an exciting immigration startup, bordr. <br> Technical expertise in Python, C++, Java, Tensorflow, Keras,<br> Numpy, AWS, and Transformers, <br>  with an interest in Speech and Natural Language Processing.
 Favourite-Programming-Languages: Python
 Interests-Outside-Of-Tech: Gaming, Photography, Music, Travel
-GitHub: GitHub.com/kishdubey
+GitHub: https://gitHub.com/kishdubey
 LinkedIn:  https://www.linkedin.com/in/kishdubey
 Twitter: https://twitter.com/
 Image:  Kish.jpeg
