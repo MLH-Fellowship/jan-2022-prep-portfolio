@@ -1,4 +1,3 @@
-
 .fellow-card {
     width: 350px;
     background-color: #efefef;
@@ -6,102 +5,106 @@
     cursor: pointer;
     transition: all 0.5s;
     box-shadow: 5px 5px 10px 1px rgba(55, 55, 70, 0.37);
-  }
-   
-  .fellow-image img {
+}
+
+.fellow-image img {
     transition: all 0.5s;
-    border-radius:100%;
+    border-radius: 100%;
     border: 3px solid #000;
-  }
-   
-  .card:hover .fellow-image img {
+}
+
+.card:hover .fellow-image img {
     transform: scale(1.5);
-  }
-   
-  .btn {
+}
+
+.fellow-btn {
     height: 140px;
     width: 140px;
     border-radius: 50%;
-  }
-   
-  .fellow-name {
+}
+
+.fellow-name {
     font-size: 22px;
     font-weight: bold;
-  }
-   
-  .idd {
+}
+
+.idd {
     font-size: 14px;
     font-weight: 600;
-  }
-   
-  .idd1 {
+}
+
+.idd1 {
     font-size: 12px;
-  }
-   
-  .number {
+}
+
+.number {
     font-size: 22px;
     font-weight: bold;
-  }
-   
-  .follow {
+}
+
+.follow {
     font-size: 12px;
     font-weight: 500;
     color: #444444;
-  }
-   
-  .btn1 {
+}
+
+.btn1 {
     height: 40px;
     width: 150px;
     border: none;
     background-color: #000;
     color: #aeaeae;
     font-size: 15px;
-  }
-   
-  .text span {
+}
+
+.text span {
     font-size: 13px;
     color: #545454;
     font-weight: 500;
-  }
-   
-  .icons i {
+}
+
+.icons i {
     font-size: 19px;
     background-color: #f0f2f5;
     border-radius: 50%;
     border: 2px solid black;
     padding: 10px;
-    color:black;
+    color: black;
     margin: 1% 0.2%;
-  }
-  .icons  i:hover{
+}
+
+.icons i:hover {
     transform: scale(1.2, 1.2);
-  }
-  hr .new1 {
+}
+
+hr .new1 {
     border: 1px solid;
-  }
-   
-  .fellow-join {
+}
+
+.fellow-join {
     font-size: 14px;
     color: #a0a0a0;
     font-weight: bold;
-  }
-   
-  .fellow-date {
+}
+
+.fellow-date {
     background-color: #ccc;
-  }
-   
-  .fellow-bio {
-      text-align:center;
-      font-size:medium;
-  }
-  .fellow-details {
+}
+
+.fellow-bio {
+    text-align: center;
+    font-size: medium;
+}
+.fellow-details {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-  }
-  .gap-3{
-    gap: 1rem!important;
-  }
-  .text-center{
-        text-align:center;
-  }
+}
+
+.gap-3 {
+    gap: 1rem !important;
+}
+
+.text-center {
+    text-align: center;
+}

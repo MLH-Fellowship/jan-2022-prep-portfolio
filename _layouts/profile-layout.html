@@ -21,7 +21,7 @@ layout: default
           justify-content-center
           align-items-center
         ">
-            <button class="btn btn-secondary">
+            <button class="btn btn-secondary fellow-btn">
                 <img src='../assets/img/{{page.Image}}' height="100" width="100" />
             </button>
             <span class="fellow-name mt-3">{{ page.Name }}</span>
@@ -71,7 +71,7 @@ layout: default
             <!-- <span class="number">1069 <span class="follow">Commits</span></span> -->
             <br>
             <div class="d-flex mt-2">
-                <button class="btn1 btn-dark" onclick="window.location.href = '{{ page.Resume }}';">Resume </button>
+                <a href="{{ page.Resume }}"><button class="btn1 btn-dark">Resume </button></a>
             </div>
             <div class="text mt-3">
 
@@ -86,9 +86,16 @@ layout: default
             align-items-center
             text-center
           ">
-                <span onclick="window.location.href = '{{ page.Twitter }}';"><i class="fa fa-twitter"></i></span>
-                <span onclick="window.location.href = '{{ page.GitHub }}';"><i class="fa fa-github"></i></span>
-                <span onclick="window.location.href = '{{ page.LinkedIn }}';"><i class="fa fa-linkedin"></i></span>
+
+                <a href="{{ page.Twitter }}">
+                    <span><i class="fa fa-twitter"></i></span>
+                </a>
+                <a href="{{ page.GitHub }}">
+                    <span><i class="fa fa-github"></i></span>
+                </a>
+                <a href="{{ page.LinkedIn }}">
+                    <span><i class="fa fa-linkedin"></i></span>
+                </a>
             </div>
 
         </div>
