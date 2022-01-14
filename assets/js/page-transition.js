@@ -66,21 +66,14 @@ function pageTransition(href, { pushState = true } = {}) {
             if (pushState) {
                 history.pushState(null, null, href);
             }
-            setTimeout(() => {
-                // Called in case something gets stuck/safari (which caches the previous page)
-                animationLayer.classList.add("animation-hidden");
-                document.body.classList.remove("cursor-wait");
-                animationLock = null
-            }, 1000);
-
             // Using push state then reload to allow us to capture back/forward button presses,
             // as popState is only triggered if the state is pushed by pushState (not by the location.href).
 
             // We could have used unload event but we can't distingush page close from back/forward.
             location.reload();
+        } else {
+            location.href = latestHref;
         }
-        // Push to history
-        // location.href = latestHref;
     })
 }
 
