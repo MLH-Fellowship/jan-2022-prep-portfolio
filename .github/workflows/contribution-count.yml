@@ -54,3 +54,4 @@ jobs:
         with:
           cwd: ${{env.GITHUB_WORKSPACE}}
           add: _data/fellows.yml
+          branch: main
