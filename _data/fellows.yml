@@ -2,7 +2,9 @@
   - 
     name: "Advitiay Anand"
     img: "advitiay.JPG"
-    contributions: 6
+    commits: 2
+    issues: 2
+    reviews: 2
     twitter: null
     location: "Amritsar, India"
     linkedin: "https://www.linkedin.com/in/advitiay-anand/"
@@ -11,7 +13,9 @@
   - 
     name: "Aniket Pal"
     img: "pal.jpg"
-    contributions: 7
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Durgapur, India"
     twitter: null
     linkedin: "https://www.linkedin.com/in/aniket-pal/"
@@ -20,7 +24,9 @@
   - 
     name: "Anubhav Gupta"
     img: "anubhav.jpg"
-    contributions: 11
+    commits: 2
+    issues: 2
+    reviews: 21
     location: "New Delhi, India"
     twitter: "https://twitter.com/anubhavstwt"
     linkedin: "https://www.linkedin.com/in/anubhav-gupta06/"
@@ -29,7 +35,9 @@
   - 
     name: "Dhruv Sachdev"
     img: "dhruv.jpg"
-    contributions: 11
+    commits: 2
+    issues: 2
+    reviews: 21
     location: "Mumbai, India"
     twitter: "https://twitter.com/dhruvhsachdev"
     linkedin: "https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/"
@@ -38,7 +46,9 @@
   - 
     name: "Emeka"
     img: "emeka.JPG"
-    contributions: 0
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Weymouth, USA"
     twitter: null
     linkedin: "https://www.linkedin.com/in/emeka-mba/"
@@ -47,7 +57,9 @@
   - 
     name: "Harsh Sharma"
     img: "harsh.png"
-    contributions: 0
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Gurgaon, India"
     twitter: null
     linkedin: "linkedin.com/in/harsh-sharma-486a38211"
@@ -56,7 +68,9 @@
   - 
     name: "Khudadad Nomani"
     img: "nomani.jpg"
-    contributions: 3
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Peshawar, Pakistan"
     twitter: null
     linkedin: null
@@ -65,7 +79,9 @@
   - 
     name: "Kish"
     img: "Kish.jpeg"
-    contributions: 0
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Ottawa, Canada"
     twitter: null
     linkedin: "LinkedIn.com/in/kishdubey"
@@ -74,7 +90,9 @@
   - 
     name: "Kshitij Darekar"
     img: "kshitij.jpg"
-    contributions: 0
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Navi Mumbai, India"
     twitter: "https://twitter.com/darekar_kshitij"
     linkedin: "https://www.linkedin.com/in/kshitij-darekar/"
@@ -83,7 +101,9 @@
   - 
     name: "Pritish Samal"
     img: "pritish.jpeg"
-    contributions: 4
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Berhampur, India"
     twitter: "https://twitter.com/PritishSamal11"
     linkedin: "https://linkedin.com/in/pritishsamal"
@@ -92,7 +112,9 @@
   - 
     name: "P.Sahithi Reddy"
     img: "Sahithi.jpeg"
-    contributions: 0
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Mahabubnagar, India"
     twitter: null
     linkedin: "https://www.linkedin.com/in/sahithi-reddy-perkampally-b054220/"
@@ -101,7 +123,9 @@
   - 
     name: "Riya Dev Varshney"
     img: "riya.png"
-    contributions: 2
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Delhi, India"
     twitter: "https://twitter.com/RiyaDevVarshne1"
     linkedin: "https://www.linkedin.com/in/riya-dev-varshney-361304197/"
@@ -110,7 +134,9 @@
   - 
     name: "Tushar Malik"
     img: "tushar.png"
-    contributions: 9
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "New Delhi, India"
     twitter: "https://twitter.com/ditsuke00"
     linkedin: "https://www.linkedin.com/in/mtushar00/"
@@ -119,7 +145,9 @@
   - 
     name: "Vaibhave S"
     img: "vaibhave.jpg"
-    contributions: 5
+    commits: 2
+    issues: 2
+    reviews: 2
     location: "Chennai, India"
     twitter: null
     linkedin: "https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/"
@@ -128,7 +156,9 @@
   - 
     name: "Yijun Yan (Lincoln)"
     img: "yan.jpg"
-    contributions: 22
+    commits: 2
+    issues: 2
+    reviews: 22
     location: "Sydney, Australia"
     twitter: null
     linkedin: "https://www.linkedin.com/in/yyjlincoln/"
