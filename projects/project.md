@@ -1,6 +1,7 @@
 ---
 title: My Project
-layout: page
+
+layout: project
 ---
 
 ## Inspiration
