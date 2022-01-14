@@ -128,8 +128,8 @@ var fellows = [
         role: 'Fellow',
     },
     {   
-        lat: 28.5483,
-        long: 77.2018,
+        lat:28.4817,
+        long:77.1873,
         pic:'anubhav.jpg',
         name: 'Anubhav Gupta',
         location: 'New Delhi, India',
