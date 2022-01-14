@@ -6,6 +6,7 @@ let animationLock = false;
 let timeline = gsap.timeline()
 
 async function beforePageTransition() {
+    gsap.to(window, { duration: 0.5, scrollTo: 0, ease: "expo.out" });
     animationLayer.classList.remove("animation-hidden");
     document.body.classList.add("cursor-wait");
     await timeline.from("#animation-layer",
