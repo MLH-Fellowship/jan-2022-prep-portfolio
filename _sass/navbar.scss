@@ -1,76 +1,64 @@
 .nav-bar {
-    width: 100%;
-    background-color: #133667;
-    font-family: "Poppins", serif;
-    font-weight: 700 !important;
-    padding-top: 10px;
-    z-index: 9;
+  width: 100%;
+  background-color: #133667;
+  font-family: "Poppins", serif;
+  font-weight: 700 !important;
+  padding-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 .nav-content .logo-touch-target {
-    display: inline-flex;
-    height: 60%;
-    width: 350px;
+  display: inline-flex;
+  height: 60%;
+  width: 350px;
 }
 
 .nav-content .nav-logo {
-    height: 60px;
-    margin: auto;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 60px;
+  margin: auto;
+  display: inline;
+  align-items: center;
 }
 
 .nav-logo img {
-    width: 200px;
+  width: 200px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+
+  // TODO: This does not add padding-bottom
+  padding: 0 20px;
+  overflow: hidden;
+  float: right;
+}
+
+.nav-list li {
+  float: left;
+  margin: 0 5px;
+}
+
+.nav-list li a {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  // background-color: #dddddd;
+}
+
+.nav-list li a:hover {
+  background-color: rgb(40, 61, 117);
+  border-radius: 9px;
 }
 
 .nav-content nav {
-    display: block;
-    width: 100%;
-    text-align: right;
-    padding-top: 0px;
-    padding-right: 0px;
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 0px;
 }
-
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-}
-
-.nav-container{
-    display: flex;
-}
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: inherit;
-  }
-  
-  li {
-    float: left;
-    
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-
-  }
-
-  li a:hover {
-    background-color: #1111113d;
-    border-radius: 8%;
-    text-decoration: none;
-    color: #fff;
-  }
