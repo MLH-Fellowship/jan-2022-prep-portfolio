@@ -5,7 +5,7 @@ Name: Vaibhave S
 University: VIT, Vellore Institute of Technology
 City: Chennai
 Country: India
-Bio: I love competitive programming, problem-solving, and web development!
+Bio: I love competitive programming, problem-solving,<br> and web development!
 Favourite-Programming-Languages: Python, C++
 Interests-Outside-Of-Tech: Painting
 GitHub: https://github.com/VaibhaveS

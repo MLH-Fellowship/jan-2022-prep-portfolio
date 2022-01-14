@@ -5,8 +5,8 @@ Name: Kshitij Darekar
 University: University Of Mumbai
 City: Navi Mumbai
 Country: India
-Bio: Hi there, I am a Computer Science student exploring different domains and technologies. Looking forward to participating in hackathons to get some experience in building projects and learn new technologies. Open to Opportunities !
-Favourite-Programming-Languages: javaScript
+Bio: Exploring different domains and technologies. <br> Looking forward to participating in hackathons <br> to get some experience in building projects and <br> learn new technologies. <br>Open to Opportunities !
+Favourite-Programming-Languages: JavaScript
 Interests-Outside-Of-Tech: Gaming
 GitHub: https://github.com/KshitijDarekar
 LinkedIn: https://www.linkedin.com/in/kshitij-darekar/

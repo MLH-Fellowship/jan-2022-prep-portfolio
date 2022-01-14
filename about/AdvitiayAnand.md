@@ -5,7 +5,7 @@ Name: Advitiay Anand
 University: Chandigarh University
 City: Amritsar
 Country: India
-Bio: I am a Kotlin App developer.
+Bio: Mobile developer.
 Favourite-Programming-Languages: Kotlin
 Interests-Outside-Of-Tech: Music, Hip-Hop
 GitHub: https://github.com/adizcode

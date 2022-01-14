@@ -2,10 +2,10 @@
 layout: profile-layout
 title: Yijun Yan
 Name: Yijun Yan
-University: High School Graduate - Will update by the end of the program
+University: High School Graduate <br>  Will update by the end of the program
 City: Sydney
 Country: Australia
-Bio: Hey, I'm Lincoln Yan. I'm a passinate developer - check out my work at https://yyjlincoln.com
+Bio: Hey, I'm Lincoln Yan. <br> I'm a passinate developer.<br>Check out my work at https://yyjlincoln.com
 Favourite-Programming-Languages: TypeScript, Python
 Interests-Outside-Of-Tech: Music
 GitHub: https://github.com/yyjlincoln

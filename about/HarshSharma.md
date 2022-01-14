@@ -5,7 +5,7 @@ Name: Harsh Sharma
 University: Maharaja Surajmal Institute of Technology
 City: Gurgaon
 Country: India
-Bio: Hi, this is Harsh. I like to cook things with code and serving them in the browser. I love experimenting with different technologies but I have a soft corner for Javascript.
+Bio: Open Source Enthusiast. <br> I like to cook things with code and <br> serving them in the browser.<br> I love experimenting with different technologies <br> but I have a soft corner for Javascript.
 Favourite-Programming-Languages: JavaScript,TypeScript, C++
 Interests-Outside-Of-Tech: Music, Cooking
 GitHub: https://github.com/harshsharma6401
