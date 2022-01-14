@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Vaibhave S
 Name: Vaibhave S
 University: VIT, Vellore Institute of Technology
 City: Chennai

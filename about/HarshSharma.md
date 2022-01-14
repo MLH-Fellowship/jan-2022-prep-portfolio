@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Harsh Sharma
 Name: Harsh Sharma
 University: Maharaja Surajmal Institute of Technology
 City: Gurgaon

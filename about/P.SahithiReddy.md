@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: P.Sahithi Reddy
 Name: P.Sahithi Reddy
 University: IIIT Hyderabad
 City: Mahabubnagar

@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Pritish Samal
 Name: Pritish Samal
 University: National Institute of Technology, Rourkela
 City: Berhampur

@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Emeka
 Name: Emeka
 University: University of Lagos
 City: Weymouth

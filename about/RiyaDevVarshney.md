@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Riya Dev Varshney
 Name: Riya Dev Varshney
 University: Delhi Technological University
 City: Dehi

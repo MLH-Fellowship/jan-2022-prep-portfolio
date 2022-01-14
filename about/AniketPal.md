@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Aniket Pal
 Name: Aniket Pal
 University: NIT Rourkela
 City: Durgapur

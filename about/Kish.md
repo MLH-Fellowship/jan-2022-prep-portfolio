@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Kish
 Name: Kish
 University: University of Ottawa
 City: Ottawa

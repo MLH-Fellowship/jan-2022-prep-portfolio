@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Tushar Malik
 Name: Tushar Malik
 University: Amity University
 City: New Delhi

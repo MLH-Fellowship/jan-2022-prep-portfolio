@@ -1,16 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-
-<div class="banner">
-    <div class="container">
-        <div class="logo">
-            <a href="/">
-                <img src="/assets/img/logo.svg" />
-            </a>
-        </div>
-    </div>
-</div>
 
 <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
     <div class="card fellow-card p-4">
@@ -24,8 +14,8 @@ layout: default
             <button class="btn btn-secondary fellow-btn">
                 <img src='../assets/img/{{page.Image}}' height="100" width="100" />
             </button>
-            <span class="fellow-name mt-3">{{ page.Name }}</span>
-            <span class="idd">{{ page.City }} , {{ page.Country }}</span>
+            <span class="fellow-name mt-3 adaptive-text">{{ page.Name }}</span>
+            <span class="idd adaptive-text">{{ page.City }} , {{ page.Country }}</span>
             <div class="
             d-flex
             flex-row
@@ -33,38 +23,40 @@ layout: default
             align-items-center
             mt-3
             text-center
+            adaptive-text
           "> {{ page.University }}</div>
             <br>
-            <span class="fellow-name mt-1">Bio</span>
+            <span class="fellow-name mt-1 adaptive-text">Bio</span>
             <span class="fellow-bio">
-                <em> {{ page.Bio }} </em>
-
+                <em class="adaptive-text"> {{ page.Bio }} </em>
             </span>
             <br>
-            <span class="fellow-details mt-1"> Favourite Programming languages</span>
+            <span class="fellow-details mt-1 adaptive-text"> Favourite Programming languages</span>
 
             <div class="
-        d-flex
-        flex-row
-        justify-content-center
+            d-flex
+            flex-row
+            justify-content-center
         align-items-center
        gap-2
        text-center
+       adaptive-text
       ">
                 {{ page.Favourite-Programming-Languages }}
             </div>
 
             <br>
-            <span class="fellow-details mt-1">Interests out of Tech</span>
+            <span class="fellow-details mt-1 adaptive-text">Interests out of Tech</span>
 
             <div class="
-        d-flex
-        flex-row
-        justify-content-center
-        align-items-center
-       gap-2
-         text-center
-      ">
+            d-flex
+            flex-row
+            justify-content-center
+            align-items-center
+            gap-2
+            text-center
+            adaptive-text
+            ">
                 {{ page.Interests-Outside-Of-Tech }}
             </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Yijun Yan
 Name: Yijun Yan
 University: High School Graduate - Will update by the end of the program
 City: Sydney

@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Advitiay Anand
 Name: Advitiay Anand
 University: Chandigarh University
 City: Amritsar

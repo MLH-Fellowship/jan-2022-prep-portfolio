@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Khudadad Nomani
 Name: Khudadad Nomani
 University: Employed
 City: Peshawar

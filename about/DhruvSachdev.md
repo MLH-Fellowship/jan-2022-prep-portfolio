@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Dhruv Sachdev
 Name: Dhruv Sachdev
 University: Mumbai University
 City: Mumbai

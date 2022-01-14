@@ -1,6 +1,6 @@
 ---
 layout: profile-layout
-title : test
+title: Kshitij Darekar
 Name: Kshitij Darekar
 University: University Of Mumbai
 City: Navi Mumbai
