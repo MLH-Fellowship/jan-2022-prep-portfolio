@@ -1,0 +1,17 @@
+<h2>Blogs</h2>
+
+<div class="card-container">
+    {% for blog in site.data.blogs %}
+        <a href="/blogs/{{ blog.page-name }}">
+            <div class="card blog-card"
+                 style="background: center no-repeat url({{ blog.background }});">
+                <div class="overlay">
+                    <div class="info">
+                        <p class="title">{{ blog.title }}</p>
+                        <p class="author">{{ blog.author }}</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
