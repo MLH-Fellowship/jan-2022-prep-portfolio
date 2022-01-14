@@ -193,8 +193,27 @@ a {
                 padding: 4px;
                 transform: scale(1.2);
             }
+            .fa-file-alt {
+                .darkresume{
+                    padding: 4px;
+                    transform: scale(1.2);
+                }
+            }
         }
     }
+}
+
+.darkgithub{
+    padding: 14px; 
+    margin-top: 1px;
+    transform: scale(1.2);
+}
+
+
+.darkresume{
+    color: white;
+    height: 9px;
+    width: auto;
 }
 
 .icon {
