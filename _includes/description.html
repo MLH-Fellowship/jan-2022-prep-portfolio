@@ -5,6 +5,28 @@
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
+            <div class="social-link">
+                <div class="twitter">
+                    {% if item.twitter %}
+                        <a href="{{item.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+                    {% else %}
+                        <i class="fab fa-twitter" style="background-color: grey;"></i>
+                    {% endif %}
+                </div>
+                <div class="linkedin">
+                    {% if item.linkedin %}
+                        <a href="{{item.linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    {% else %}
+                        <i class="fab fa-linkedin" style="background-color: grey;"></i>
+                    {% endif %}
+                </div>
+                <div class="github">
+                    <a href="{{item.github}}" target="_blank"> <i class="fab fa-github"></i> </a>
+                </div>
+                <div class="resume">
+                    <a href="{{item.resume}}" target="_blank"><i class="far fa-file-alt"></i></a>
+                </div>
+            </div>
         </div>
     </div>
     {% endfor %}
