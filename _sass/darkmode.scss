@@ -1,143 +1,143 @@
 .y-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #dark-theme-toggle {
-  z-index: 10000000;
-  position: fixed;
-  bottom: 3rem;
-  right: 3rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: row;
-  user-select: none;
-  cursor: pointer;
-  font-weight: bold;
+    z-index: 10000000;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 [theme="dark"] {
-  background-color: #1e1e29 !important;
-
-  .initiallogo {
-    background-color: #2a2b3c !important;
-  }
-
-  .finallogo {
     background-color: #1e1e29 !important;
-  }
 
-  .footer-all {
-    background-color: #2a2b3c;
-  }
-  header,
-  .profile,
-  .banner {
-    background-color: #2a2b3c !important;
-  }
+    .initiallogo {
+        background-color: #2a2b3c !important;
+    }
 
-  h1,
-  h2,
-  .control-label,
-  .title {
-    color: #cfcfd4 !important;
-  }
+    .finallogo {
+        background-color: #1e1e29 !important;
+    }
 
-  .card {
-    background-color: #2a2b3c !important;
-  }
+    .footer-all {
+        background-color: #2a2b3c;
+    }
+    header,
+    .profile,
+    .banner {
+        background-color: #2a2b3c !important;
+    }
 
-  .location {
-    color: #9396a5 !important;
-  }
+    h1,
+    h2,
+    .control-label,
+    .title {
+        color: #cfcfd4 !important;
+    }
 
-  .dates,
-  p {
-    color: #9396a5 !important;
-  }
+    .card {
+        background-color: #2a2b3c !important;
+    }
+
+    .location {
+        color: #9396a5 !important;
+    }
+
+    .dates,
+    p {
+        color: #9396a5 !important;
+    }
 }
 
 [theme="dark"] {
-  .adaptive-background {
-    background-color: #1e1e29;
-  }
+    .adaptive-background {
+        background-color: #1e1e29;
+    }
 
-  .adaptive-background-reverse {
-    background-color: #f5f5f9;
-  }
-  .adaptive-text {
-    color: #f5f5f9;
-  }
-  .adaptive-text-reverse {
-    color: #1e1e29;
-  }
+    .adaptive-background-reverse {
+        background-color: #f5f5f9;
+    }
+    .adaptive-text {
+        color: #f5f5f9;
+    }
+    .adaptive-text-reverse {
+        color: #1e1e29;
+    }
 
-  .adaptive-background-transparent {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
+    .adaptive-background-transparent {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 
-  .adaptive-shadow {
-    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.3));
-  }
+    .adaptive-shadow {
+        filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.3));
+    }
 
-  .adaptive-theme-color {
-    background-color: #b9d1f2;
-  }
+    .adaptive-theme-color {
+        background-color: #b9d1f2;
+    }
 
-  .adaptive-theme-color-dark {
-    background-color: #17427E;
-  }
+    .adaptive-theme-color-dark {
+        background-color: #17427e;
+    }
 
-  .light-only {
-    display: none;
-  }
+    .light-only {
+        display: none;
+    }
 
-  .dark-only {
-    display: block;
-  }
+    .dark-only {
+        display: block;
+    }
 }
 
 .light-only {
-  display: block;
+    display: block;
 }
 
 .dark-only {
-  display: none;
+    display: none;
 }
 
 .adaptive-text {
-  color: #121212;
+    color: #121212;
 }
 
 .adaptive-text-reverse {
-  color: #f5f5f9;
+    color: #f5f5f9;
 }
 
 .adaptive-background {
-  background-color: #f5f5f9;
+    background-color: #f5f5f9;
 }
 
 .adaptive-background-reverse {
-  background-color: #121212;
+    background-color: #121212;
 }
 
 .adaptive-theme-color {
-  background-color: #2c74d8;
+    background-color: #2c74d8;
 }
 
 .adaptive-theme-color-dark {
-  background-color: #2c74d8;
+    background-color: #2c74d8;
 }
 
 .adaptive-shadow {
-  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.2));
 }
 
 .adaptive-background-transparent {
-  background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .transition-effect {
-  transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }

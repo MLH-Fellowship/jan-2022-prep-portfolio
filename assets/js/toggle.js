@@ -71,7 +71,7 @@ function updateTheme(modePreference, isInit = false) {
 
   beforeModeChange({ isDark, modePreference, isInit }).then(() => {
     isDark ? applyDarkMode() : applyLightMode()
-    // Remove the hidden tag - the hidden tag was added 
+    // Remove the hidden tag - the hidden tag was added
     // to avoid flashing when switching pages in dark mode.
     if (isInit) {
       document.body.classList.remove("hidden")
@@ -96,7 +96,7 @@ async function beforeModeChange({ isDark, modePreference, isInit }) {
     const allElements = document.getElementsByTagName("*");
     for (let i = 0, max = allElements.length; i < max; i++) {
       const element = allElements[i];
-      if (element !== darkModeStatusIcon && element !== darkModeStatusIconWrapper && element !== darkModeStatusIndicator) {
+      if (!element.classList.contains("no-transition")) {
         element.classList.add("transition-effect")
       }
     }
@@ -115,7 +115,7 @@ async function afterModeChange({ isDark, modePreference, isInit }) {
     currentTimeout = setTimeout(() => {
       for (let i = 0, max = allElements.length; i < max; i++) {
         const element = allElements[i];
-        if (element !== darkModeStatusIcon && element !== darkModeStatusIconWrapper && element !== darkModeStatusIndicator) {
+        if (!element.classList.contains("no-transition")) {
           element.classList.remove("transition-effect")
         }
       }
