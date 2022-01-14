@@ -1,164 +1,168 @@
-- name: Advitiay Anand
-  img: advitiay.JPG
-  twitter :
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Amritsar, India
-  linkedin : https://www.linkedin.com/in/advitiay-anand/
-  github : https://github.com/adizcode
-  resume : https://drive.google.com/open?id=1m2UVlRBu5gSjXUYK9xYybwEXSK9CauTv
+---
+  - 
+    name: "Advitiay Anand"
+    img: "advitiay.JPG"
+    issues: 2
+    commits: 2
+    reviews: 3
+    twitter: null
+    location: "Amritsar, India"
+    linkedin: "https://www.linkedin.com/in/advitiay-anand/"
+    github: "https://github.com/adizcode"
+    resume: "https://drive.google.com/open?id=1m2UVlRBu5gSjXUYK9xYybwEXSK9CauTv"
+  - 
+    name: "Aniket Pal"
+    img: "pal.jpg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Durgapur, India"
+    twitter: null
+    linkedin: "https://www.linkedin.com/in/aniket-pal/"
+    github: "https://github.com/Aniket762"
+    resume: "https://drive.google.com/open?id=1_x8NgXgL1uhJjZ3eH9-6Kuaf40Oul3o4"
+  - 
+    name: "Anubhav Gupta"
+    img: "anubhav.jpg"
+    
+issues: 2
+commits: 2
+reviews: 3
+ location: "New Delhi, India"
+    twitter: "https://twitter.com/anubhavstwt"
+    linkedin: "https://www.linkedin.com/in/anubhav-gupta06/"
+    github: "https://github.com/anubhav06"
+    resume: "https://drive.google.com/open?id=1rG7vzWnByQP2NN5Cp5soICh0EZaOl9ri"
+  - 
+    name: "Dhruv Sachdev"
+    img: "dhruv.jpg"
+    
+issues: 2
+commits: 2
+reviews: 3
+ location: "Mumbai, India"
+    twitter: "https://twitter.com/dhruvhsachdev"
+    linkedin: "https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/"
+    github: "https://github.com/Dhruv-Sachdev1313"
+    resume: "https://drive.google.com/open?id=18gLvlyB_KDchoI7siimOPDaLZGjR_q-t"
+  - 
+    name: "Emeka"
+    img: "emeka.JPG"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Weymouth, USA"
+    twitter: null
+    linkedin: "https://www.linkedin.com/in/emeka-mba/"
+    github: "https://gitHub.com/Chukwuemeka-Mba"
+    resume: "https://drive.google.com/open?id=1b7xob_HcVxQn2zsz9HObxoQpuUlMsz1Z"
+  - 
+    name: "Harsh Sharma"
+    img: "harsh.png"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Gurgaon, India"
+    twitter: null
+    linkedin: "linkedin.com/in/harsh-sharma-486a38211"
+    github: "https://github.com/harshsharma6401"
+    resume: "https://drive.google.com/open?id=18b0kXay4kn5SyS47ZX1y3ibY6VV-SNR-"
+  - 
+    name: "Khudadad Nomani"
+    img: "nomani.jpg"
+    contributions: 4
+    location: "Peshawar, Pakistan"
+    twitter: null
+    linkedin: null
+    github: "https://github.com/KhudaDad414"
+    resume: "https://drive.google.com/open?id=1XWocTrR7A-7htj4IcMmT1VQwwrPV-9p9"
+  - 
+    name: "Kish"
+    img: "Kish.jpeg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Ottawa, Canada"
+    twitter: null
+    linkedin: "LinkedIn.com/in/kishdubey"
+    github: "GitHub.com/kishdubey"
+    resume: "https://drive.google.com/open?id=1mMzU_71fU2Hupcg2HD9oA5dHgD_c4M00"
+  - 
+    name: "Kshitij Darekar"
+    img: "kshitij.jpg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Navi Mumbai, India"
+    twitter: "https://twitter.com/darekar_kshitij"
+    linkedin: "https://www.linkedin.com/in/kshitij-darekar/"
+    github: "https://github.com/KshitijDarekar"
+    resume: "https://drive.google.com/open?id=1R8daUnR3Fnu6eXAs5TW0IVVtOblrlRg8"
+  - 
+    name: "Pritish Samal"
+    img: "pritish.jpeg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Berhampur, India"
+    twitter: "https://twitter.com/PritishSamal11"
+    linkedin: "https://linkedin.com/in/pritishsamal"
+    github: "https://github.com/CIPHERTron"
+    resume: "https://drive.google.com/open?id=1pTQrUJdguIZ-Y0m76zsKoeonZRKjMc__"
+  - 
+    name: "P.Sahithi Reddy"
+    img: "Sahithi.jpeg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Mahabubnagar, India"
+    twitter: null
+    linkedin: "https://www.linkedin.com/in/sahithi-reddy-perkampally-b054220/"
+    github: "https://github.com/psahithireddy"
+    resume: "https://drive.google.com/open?id=1lqQrwSwnSYPO-e0tM75Q22zma-u2gmvx"
+  - 
+    name: "Riya Dev Varshney"
+    img: "riya.png"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Delhi, India"
+    twitter: "https://twitter.com/RiyaDevVarshne1"
+    linkedin: "https://www.linkedin.com/in/riya-dev-varshney-361304197/"
+    github: "https://github.com/Riyadevvarshney11"
+    resume: "https://drive.google.com/open?id=1aNd__JkPQ6b8I7MDvpwoVyAnsVA-N9Rz"
+  - 
+    name: "Tushar Malik"
+    img: "tushar.png"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "New Delhi, India"
+    twitter: "https://twitter.com/ditsuke00"
+    linkedin: "https://www.linkedin.com/in/mtushar00/"
+    github: "https://github.com/ditsuke"
+    resume: "https://drive.google.com/open?id=1E_GuGeYYbatBegk6wYCNug1uNebz0HcI"
+  - 
+    name: "Vaibhave S"
+    img: "vaibhave.jpg"
+    issues: 2
+    commits: 2
+    reviews: 3
+    location: "Chennai, India"
+    twitter: null
+    linkedin: "https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/"
+    github: "https://github.com/VaibhaveS"
+    resume: "https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB"
+  - 
+    name: "Yijun Yan (Lincoln)"
+    img: "yan.jpg"
+    
+issues: 2
+commits: 2
+reviews: 3
+ location: "Sydney, Australia"
+    twitter: null
+    linkedin: "https://www.linkedin.com/in/yyjlincoln/"
+    github: "https://github.com/yyjlincoln"
+    resume: "https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb"
 
-- name: Aniket Pal
-  img: pal.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Durgapur, India
-  twitter :
-  linkedin : https://www.linkedin.com/in/aniket-pal/
-  github : https://github.com/Aniket762
-  resume : https://drive.google.com/open?id=1_x8NgXgL1uhJjZ3eH9-6Kuaf40Oul3o4
-
-- name: Anubhav Gupta
-  img: anubhav.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: New Delhi, India
-  twitter : https://twitter.com/anubhavstwt
-  linkedin : https://www.linkedin.com/in/anubhav-gupta06/
-  github : https://github.com/anubhav06
-  resume : https://drive.google.com/open?id=1rG7vzWnByQP2NN5Cp5soICh0EZaOl9ri
-
-- name: Dhruv Sachdev
-  img: dhruv.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Mumbai, India
-  twitter : https://twitter.com/dhruvhsachdev
-  linkedin : https://www.linkedin.com/in/dhruv-sachdev-19b1b3143/
-  github : https://github.com/Dhruv-Sachdev1313
-  resume : https://drive.google.com/open?id=18gLvlyB_KDchoI7siimOPDaLZGjR_q-t
-
-- name: Emeka
-  img: emeka.JPG
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Weymouth, USA
-  twitter :
-  linkedin : https://www.linkedin.com/in/emeka-mba/
-  github : https://gitHub.com/Chukwuemeka-Mba
-  resume : https://drive.google.com/open?id=1b7xob_HcVxQn2zsz9HObxoQpuUlMsz1Z
-
-- name: Harsh Sharma
-  img: harsh.png
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Gurgaon, India
-  twitter :
-  linkedin : https://linkedin.com/in/harsh-sharma-486a38211
-  github : https://github.com/harshsharma6401
-  resume : https://drive.google.com/open?id=18b0kXay4kn5SyS47ZX1y3ibY6VV-SNR-
-
-- name: Khudadad Nomani
-  img: nomani.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Peshawar, Pakistan
-  twitter :
-  linkedin :
-  github : https://github.com/KhudaDad414
-  resume : https://drive.google.com/open?id=1XWocTrR7A-7htj4IcMmT1VQwwrPV-9p9
-
-- name: Kish
-  img: Kish.jpeg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Ottawa, Canada
-  twitter :
-  linkedin : https://linkedIn.com/in/kishdubey
-  github : https://gitHub.com/kishdubey
-  resume : https://drive.google.com/open?id=1mMzU_71fU2Hupcg2HD9oA5dHgD_c4M00
-
-- name: Kshitij Darekar
-  img: kshitij.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Navi Mumbai, India
-  twitter : https://twitter.com/darekar_kshitij
-  linkedin : https://www.linkedin.com/in/kshitij-darekar/
-  github : https://github.com/KshitijDarekar
-  resume : https://drive.google.com/open?id=1R8daUnR3Fnu6eXAs5TW0IVVtOblrlRg8
-
-- name: Pritish Samal
-  img: pritish.jpeg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Berhampur, India
-  twitter : https://twitter.com/PritishSamal11
-  linkedin : https://linkedin.com/in/pritishsamal
-  github : https://github.com/CIPHERTron
-  resume : https://drive.google.com/open?id=1pTQrUJdguIZ-Y0m76zsKoeonZRKjMc__
-
-- name: P.Sahithi Reddy
-  img: Sahithi.jpeg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Mahabubnagar, India
-  twitter :
-  linkedin : https://www.linkedin.com/in/sahithi-reddy-perkampally-b054220/
-  github : https://github.com/psahithireddy
-  resume : https://drive.google.com/open?id=1lqQrwSwnSYPO-e0tM75Q22zma-u2gmvx
-
-- name: Riya Dev Varshney
-  img: riya.png
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Delhi, India
-  twitter : https://twitter.com/RiyaDevVarshne1
-  linkedin : https://www.linkedin.com/in/riya-dev-varshney-361304197/
-  github : https://github.com/Riyadevvarshney11
-  resume : https://drive.google.com/open?id=1aNd__JkPQ6b8I7MDvpwoVyAnsVA-N9Rz
-
-- name: Tushar Malik
-  img: tushar.png
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: New Delhi, India
-  twitter : https://twitter.com/ditsuke00
-  linkedin : https://www.linkedin.com/in/mtushar00/
-  github : https://github.com/ditsuke
-  resume : https://drive.google.com/open?id=1E_GuGeYYbatBegk6wYCNug1uNebz0HcI
-
-- name: Vaibhave S
-  img: vaibhave.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Chennai, India
-  twitter :
-  linkedin : https://www.linkedin.com/in/s-vaibhave-davey-a8798118b/
-  github : https://github.com/VaibhaveS
-  resume : https://drive.google.com/open?id=1WpXTcMmESTYwXpab8dPdrRvJI5dg-LsB
-
-- name: Yijun Yan (Lincoln)
-  img: yan.jpg
-  issues: 0
-  reviews: 0
-  commits: 0
-  location: Sydney, Australia
-  twitter :
-  linkedin : https://www.linkedin.com/in/yyjlincoln/
-  github : https://github.com/yyjlincoln
-  resume : https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb
