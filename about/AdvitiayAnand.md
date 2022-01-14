@@ -10,7 +10,7 @@ Favourite-Programming-Languages: Kotlin
 Interests-Outside-Of-Tech: Music, Hip-Hop
 GitHub: https://github.com/adizcode
 LinkedIn: https://www.linkedin.com/in/advitiay-anand
-Twitter: N/A
+Twitter:  https://twitter.com/
 Image: advitiay.JPG
 Resume: https://drive.google.com/open?id=1m2UVlRBu5gSjXUYK9xYybwEXSK9CauTv
 ---

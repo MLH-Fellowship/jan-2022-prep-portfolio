@@ -9,8 +9,8 @@ Bio:  Hi! I'm Kish.I'm the Founder of an exciting immigration startup, bordr.I h
 Favourite-Programming-Languages: Python
 Interests-Outside-Of-Tech: Gaming, Photography, Music, Travel
 GitHub: GitHub.com/kishdubey
-LinkedIn: LinkedIn.com/in/kishdubey
-Twitter: N/A
+LinkedIn:  https://www.linkedin.com/in/kishdubey
+Twitter: https://twitter.com/
 Image:  Kish.jpeg
 Resume: https://drive.google.com/open?id=1mMzU_71fU2Hupcg2HD9oA5dHgD_c4M00
 ---
