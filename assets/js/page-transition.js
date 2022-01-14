@@ -71,9 +71,9 @@ function pageTransition(href, { pushState = true } = {}) {
 
             // We could have used unload event but we can't distingush page close from back/forward.
             location.reload();
+        } else {
+            location.href = latestHref;
         }
-        // Push to history
-        // location.href = latestHref;
     })
 }
 
