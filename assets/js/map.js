@@ -256,26 +256,6 @@ for(var i=0;i<fellows.length;i++){
     marker.bindPopup(popup);
 }
 
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-        function(position) {
-            // On success..Get current cordinates.
-            positionCords = {"lat": position.coords.latitude, "lng": position.coords.longitude};
-            var circle = L.circle([position.coords.latitude,position.coords.longitude], {
-                color: 'black',
-                fillColor: '#f03',
-                fillOpacity: 0.5,
-                radius: 200000
-            }).addTo(map);
-            circle.bindPopup("You are here!").openPopup();
-            //var YourPosition = L.marker([position.coords.latitude,position.coords.longitude]).addTo(map);
-        },
-        function(error) {
-            // On error code..Do nothing
-        },
-        {timeout: 30000, enableHighAccuracy: true, maximumAge: 75000}
-    );
-}  
 
 let Medobj=median(fellows);
 
@@ -291,3 +271,38 @@ var popup = `<div class="container">
             </div>`
 var marker = L.marker([Medobj[0], Medobj[1]],{icon:icon}).addTo(map);
 marker.bindPopup(popup);
+
+// Set the visitor's pin on the map on demand
+const setVisitorPin = () => {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            function(position) {
+                // On success..Get current cordinates.
+                let circle = L.circle([position.coords.latitude,position.coords.longitude], {
+                    color: 'black',
+                    fillColor: '#f03',
+                    fillOpacity: 0.5,
+                    radius: 200000
+                }).addTo(map);
+                circle.bindPopup("You are here!").openPopup();
+            },
+            function(error) {
+                // On error code..Do nothing
+            },
+            {timeout: 30000, enableHighAccuracy: true, maximumAge: 75000}
+        );
+    }
+}
+
+const bindToPinButton = () => {
+    const button = document.querySelector("#add-my-pin");
+    let buttonClickListener = () => {
+        setVisitorPin();
+        button.removeEventListener("click", buttonClickListener);
+        button.disabled = true;
+    }
+
+    addEventListener("click", buttonClickListener);
+}
+
+document.addEventListener("DOMContentLoaded", bindToPinButton);
