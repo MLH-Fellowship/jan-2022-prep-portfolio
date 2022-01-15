@@ -107,8 +107,15 @@ a {
     color: inherit;
 }
 
-.main-content {
+body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    margin: 0;
+
+    main {
+        flex: 1;
+    }
 }
 
 .info {
@@ -217,7 +224,7 @@ a {
 }
 
 .darkgithub{
-    padding: 14px; 
+    padding: 14px;
     margin-top: 1px;
     transform: scale(1.2);
 }
