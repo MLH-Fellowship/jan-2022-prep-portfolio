@@ -284,9 +284,11 @@ const bindToPinButton = () => {
         setVisitorPin();
         button.removeEventListener("click", buttonClickListener);
         button.disabled = true;
+        button.setAttribute("aria-disabled", "true");
+        button.classList.add("disabled");
     }
 
-    addEventListener("click", buttonClickListener);
+    button.addEventListener("click", buttonClickListener);
 }
 
 document.addEventListener("DOMContentLoaded", bindToPinButton);
