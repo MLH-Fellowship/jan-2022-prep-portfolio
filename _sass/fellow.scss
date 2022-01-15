@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+.fellow-card {
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 10px 1px rgba(55, 55, 70, 0.37);
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+    padding-left:10% !important;
+    padding-right: 10% !important;
+}
+
+.fellow-image img {
+    transition: all 0.3s;
+    border-radius: 100%;
+    border: 3px solid #000;
+}
+
+.card:hover .fellow-image img {
+    transform: scale(1.5);
+}
+
+.fellow-btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient( 134.6deg,  rgba(201, 37, 108, 0.432) 15.4%, rgba(117, 16, 124, 0.541) 74.7% );
+}
+
+.fellow-name {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.fellow-city {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.resume-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(163,175,243,1) 0%, rgba(220,182,232,1) 100.2% );
+    color:#744040ec;
+    font-size: 15px;
+    border-radius: 3%;
+}
+
+.social-icons i {
+    font-size: 19px;
+    background-color: inherit;
+    border-radius: 50%;
+    border: 2px solid  #fff;;
+    padding: 10px;
+    color: #fff;
+    margin: 1% 0.2%;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.fellow-date {
+    background-color: #ccc;
+}
+
+.fellow-bio {
+    text-align: center;
+    font-size: medium;
+}
+.fellow-details {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:2%;
+}
+
+.gap-of-3 {
+    gap: 1rem !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fellow-name, .fellow-bio , .fellow-city, .fellow-details ,.fellow-join ,.fellow-city ,.fellow-color{
+    color:#FFE2E2;
+}

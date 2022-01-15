@@ -1,9 +1,12 @@
-<h2>Meet the Pod</h2>
+<h2 id="PodMembers">Meet the Pod</h2>
 <div class="card-container">
+
     {% for item in site.data.fellows %}
     <div class="card">
         <div class="info">
-            <p class="title"> {{ item.name }}</p>
+            <a href="{{ item.profileURL }}">
+                <p class="title"> {{ item.name }}</p>
+            </a>
             <p class="location"> {{ item.location }}</p>
             <div class="social-link">
                 <div class="twitter">
@@ -21,10 +24,12 @@
                     {% endif %}
                 </div>
                 <div class="github">
-                    <a href="{{item.github}}" target="_blank"> <i class="fab fa-github"></i> </a>
+                    <a href="{{item.github}}" target="_blank"> <i class="light-only fab fa-github"></i> </a>
+                    <a href="{{item.github}}" target="_blank"> <i class="dark-only darkgithub fab fa-github"></i> </a>
                 </div>
                 <div class="resume">
-                    <a href="{{item.resume}}" target="_blank"><i class="far fa-file-alt"></i></a>
+                    <a href="{{item.resume}}" target="_blank"><i class="light-only far fa-file-alt"></i></a>
+                    <a href="{{item.resume}}" target="_blank"><i class="dark-only darkresume far fa-file-alt"></i></a>
                 </div>
             </div>
             <div class="stats-container">

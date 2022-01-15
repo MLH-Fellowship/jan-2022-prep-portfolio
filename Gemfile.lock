@@ -60,6 +60,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
@@ -69,4 +70,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.3
+   2.3.4

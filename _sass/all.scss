@@ -5,6 +5,7 @@
 @import "page";
 @import "map";
 @import "darkmode";
+@import "fellow";
 @import "footer";
 @import "page-transition";
 
@@ -212,6 +213,18 @@ a {
             }
         }
     }
+}
+
+.darkgithub{
+    padding: 14px; 
+    margin-top: 1px;
+    transform: scale(1.2);
+}
+
+
+.darkresume{
+    color: white;
+    margin-top: 1px;
 }
 
 .icon {
