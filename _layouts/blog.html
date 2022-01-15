@@ -6,7 +6,7 @@ layout: default
         <div>
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/img/mlh-prep.png" style="width:100px" />
+                    <img src="/assets/img/mlh-prep.png" style="width:100px" alt="mlh-prep-banner"/>
                 </a>
             </div>
             <div class="title" style="font-size: 40px;">
@@ -16,17 +16,14 @@ layout: default
                 {{page.author}}
             </div>
             <div class="title" style="font-size: 15px;">
-                Published on {{page.date}}
+                Published on <span class="blog-date">{{page.date | date_to_string}}</span>
             </div>
 
         </div>
         <a class="btn btn-outline-light" href="/">Go To Home</a>
-       
     </div>
-</div >
-<div class="container">
+</div>
+
+<div class="container blog-container">
     {{ content }}
 </div>
-
-</div>
-
