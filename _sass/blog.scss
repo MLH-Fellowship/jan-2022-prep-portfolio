@@ -9,10 +9,12 @@
     background-position: center;
     aspect-ratio: 1;
     position: relative;
+
     .overlay {
         width: 100%;
         height: 100%;
         background: linear-gradient(0deg, #fff, rgba(0, 0, 0, 0));
+
         .info {
             width: 100%;
             position: absolute;
@@ -20,14 +22,17 @@
             padding: 0.7em;
         }
     }
-}
 
-.blog-card:hover {
-    .overlay {
+    .overlay:hover {
         background: transparent;
         transition: background 500ms linear;
+
+        .info {
+            background: #fff;
+        }
     }
 }
+
 
 .blog-container {
     padding: 1em;

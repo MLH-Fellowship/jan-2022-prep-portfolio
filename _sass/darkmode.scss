@@ -72,6 +72,21 @@
             }
         }
     }
+
+    .blog-card {
+        .overlay {
+            background: linear-gradient(0deg, #000, rgba(0, 0, 0, 0));
+        }
+        .info {
+            background: transparent;
+        }
+        .overlay:hover {
+            background: transparent;
+            .info {
+                background: #000;
+            }
+        }
+    }
 }
 
 [theme="dark"] {
@@ -82,11 +97,11 @@
     .adaptive-background-reverse {
         background-color: #f5f5f9;
     }
-  
+
     .adaptive-text {
         color: #f5f5f9;
     }
-  
+
     .adaptive-text-reverse {
         color: #1e1e29;
     }
