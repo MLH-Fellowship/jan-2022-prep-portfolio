@@ -175,8 +175,8 @@
     reviews: 1
     location: "Sydney, Australia"
     twitter: null
-    linkedin: "https://www.linkedin.com/in/yyjlincoln/"
-    github: "https://github.com/yyjlincoln"
-    resume: "https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb"
+    linkedin: "https://redirect.yyjlincoln.com/linkedin"
+    github: "https://redirect.yyjlincoln.com/github"
+    resume: "https://redirect.yyjlincoln.com/resume"
     profileURL: "/about/Lincoln"
 
