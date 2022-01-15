@@ -1,4 +1,4 @@
-var map = L.map('map').setView([17.6078, 8.0817], 3);
+const map = L.map('map').setView([17.6078, 8.0817], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     minZoom: 2,
 }).addTo(map);
 
-var fellows = [
+const fellows = [
     {
         lat: -14.2350,
         long: -51.9253,
@@ -23,8 +23,8 @@ var fellows = [
         pic: 'Kish.jpeg',
         name: 'Kish',
         location: 'Ottawa, Canada',
-        github: 'http://github.com/kishdubey',
-        linkedin: 'http://linkedin.com/in/kishdubey',
+        github: 'https://github.com/kishdubey',
+        linkedin: 'https://linkedin.com/in/kishdubey',
         role: 'Fellow',
     },
     {
@@ -84,7 +84,7 @@ var fellows = [
         name: 'Harsh Sharma',
         location: 'Gurgaon, India',
         github: 'https://github.com/harshsharma6401',
-        linkedin: 'http://linkedin.com/in/harsh-sharma-486a38211',
+        linkedin: 'https://linkedin.com/in/harsh-sharma-486a38211',
         role: 'Fellow',
     },
     {
@@ -171,7 +171,7 @@ var fellows = [
 
 function median(Fellows) {
     let lat = 0.0, long = 0.0
-    for (var i = 0; i < Fellows.length; i++) {
+    for (let i = 0; i < Fellows.length; i++) {
         lat += Fellows[i].lat;
         long += Fellows[i].long;
     }
@@ -181,7 +181,7 @@ function median(Fellows) {
 }
 
 function distance(Fellow1, Fellow2) {
-    var lat1 = Fellow1.lat, lat2 = Fellow2.lat, lon1 = Fellow1.long, lon2 = Fellow2.long
+    let lat1 = Fellow1.lat, lat2 = Fellow2.lat, lon1 = Fellow1.long, lon2 = Fellow2.long
     // The math module contains a function
     // named toRadians which converts from
     // degrees to radians.
@@ -203,10 +203,10 @@ function distance(Fellow1, Fellow2) {
     return (c * r);
 }
 
-for (var i = 0; i < fellows.length; i++) {
-    var nearestIndex = -1, nearestDistance = Number.MAX_SAFE_INTEGER;
-    for (var j = 0; j < fellows.length; j++) {
-        if (i == j) continue;
+for (let i = 0; i < fellows.length; i++) {
+    let nearestIndex = -1, nearestDistance = Number.MAX_SAFE_INTEGER;
+    for (let j = 0; j < fellows.length; j++) {
+        if (i === j) continue;
         if (distance(fellows[i], fellows[j]) < nearestDistance) {
             nearestDistance = distance(fellows[i], fellows[j]);
             nearestIndex = j;
@@ -215,15 +215,19 @@ for (var i = 0; i < fellows.length; i++) {
     fellows[i].neighbour = fellows[nearestIndex].name
 }
 
-for (var i = 0; i < fellows.length; i++) {
-    var icon = L.icon({
+let popup;
+let icon;
+let marker;
+
+for (let i = 0; i < fellows.length; i++) {
+    icon = L.icon({
         iconUrl: '/assets/img/' + fellows[i].pic,
         iconSize: [50, 50], // size of the icon
         // iconAnchor: [22, 94],
         popupAnchor: [0, -16], // point from which the popup should open relative to the iconAnchor
         className: 'marker'
     });
-    var popup = `<div class="container">
+    popup = `<div class="container">
                 <h4 style='display:inline'><b>${fellows[i].name}</b><h6 style='display:inline'>, ${fellows[i].role}</h6></h4>
                 <hr/><b>${fellows[i].location}</b>
                 <br><b>Nearest to ${fellows[i].neighbour}!</b>
@@ -231,25 +235,25 @@ for (var i = 0; i < fellows.length; i++) {
                 <a href=${fellows[i].linkedin}><em class="fab fa-linkedin"></em></a>
                 <a href=${fellows[i].github}><em class="fab fa-github"></em></a>
                 </div>
-                </div>`
-    var marker = L.marker([fellows[i].lat, fellows[i].long], {icon: icon}).addTo(map);
+                </div>`;
+    marker = L.marker([fellows[i].lat, fellows[i].long], {icon: icon}).addTo(map);
     marker.bindPopup(popup);
 }
 
 
-let Medobj = median(fellows);
+let medianLoc = median(fellows);
 
-var icon = L.icon({
+icon = L.icon({
     iconUrl: '/assets/img/tea.jpeg',
     iconSize: [40, 40], // size of the icon
     popupAnchor: [0, -16], // point from which the popup should open relative to the iconAnchor
     className: 'marker'
 });
-var popup = `<div class="container">
-            <h6 style='display:inline'><b>They call me median ;)</b><h7 style='display:inline'>, A perfect place to hangout!</h7></h6>
+popup = `<div class="container">
+            <h6 style='display:inline'><b>They call me median ;)</b><h7 style='display:inline'>, A perfect place to hang out!</h7></h6>
             <hr/><b>Oman</b>
-            </div>`
-var marker = L.marker([Medobj[0], Medobj[1]], {icon: icon}).addTo(map);
+            </div>`;
+marker = L.marker([medianLoc[0], medianLoc[1]], {icon: icon}).addTo(map);
 marker.bindPopup(popup);
 
 // Set the visitor's pin on the map on demand
