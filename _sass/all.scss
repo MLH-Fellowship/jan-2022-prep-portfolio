@@ -40,6 +40,13 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .profile{
+        display: none;
+    }
+ 
+ }
+ 
 .hidden {
     opacity: 0;
 }
