@@ -63,8 +63,8 @@ const fellows = [
         pic: 'yan.jpg',
         name: 'Yijun Yan',
         location: 'Sydney, Australia',
-        github: 'https://github.com/yyjlincoln',
-        linkedin: '/',
+        github: 'https://redirect.yyjlincoln.com/github',
+        linkedin: 'https://redirect.yyjlincoln.com/linkedin',
         role: 'Fellow',
     },
     {
