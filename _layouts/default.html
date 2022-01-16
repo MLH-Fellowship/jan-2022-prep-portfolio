@@ -6,15 +6,15 @@
 {% include header.html %}
 
 <body class="hidden">
-    <main>
+    <div class="main-content">
         {{ content }}
-    </main>
-    {% include page-transition.html %}
-
-    {% include footer.html %}
-
-    {% include toggle.html %}
+    </div>
 </body>
 
+{% include page-transition.html %}
+
+{% include footer.html %}
+
+{% include toggle.html %}
 <!-- Global Wrapper, excluding index.html -->
 </html>

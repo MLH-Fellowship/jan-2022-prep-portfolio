@@ -6,30 +6,28 @@
 
 
 <body class="hidden">
+    <div class="main-content">
+
     {% include navbar.html %}
 
-    <main>
+    {% include profile.html %}
 
-        {% include profile.html %}
+    {% include description.html %}
 
-        {% include description.html %}
+    {% include projects.html %}
 
-        {% include projects.html %}
+    {% include blogs.html.liquid %}
 
-        {% include blogs.html.liquid %}
+    {% include map.html %}
 
-        {% include map.html %}
+    {% include toggle.html %}
 
-        {% include toggle.html %}
+    {% include page-transition.html %}
 
-        {% include page-transition.html %}
-
-    </main>
-
-    {% include footer.html %}
-
+    </div>
 </body>
 
+{% include footer.html %}
 
 </html>
 
