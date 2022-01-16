@@ -39,6 +39,12 @@
         display: none;
     }
 }
+// This will help to not show the profile pictures in mobile view
+@media only screen and (max-width: 480px) {
+    .profile{
+        display: none;
+    }
+ }
 
 .hidden {
     opacity: 0;
