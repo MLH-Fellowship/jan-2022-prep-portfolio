@@ -8,9 +8,9 @@ Country: Australia
 Bio: Hey, I'm Lincoln Yan. <br> I'm a passinate developer.<br>Check out my work at https://yyjlincoln.com
 Favourite-Programming-Languages: TypeScript, Python
 Interests-Outside-Of-Tech: Music
-GitHub: https://github.com/yyjlincoln
-LinkedIn: https://www.linkedin.com/in/yyjlincoln/
+GitHub: https://redirect.yyjlincoln.com/github
+LinkedIn: https://redirect.yyjlincoln.com/linkedin
 Twitter: https://twitter.com/
 Image: yan.jpg
-Resume: https://drive.google.com/open?id=1erV8mBmkr8v-F9C4tV-MG3XtTyknqyRb
+Resume: https://redirect.yyjlincoln.com/resume
 ---
